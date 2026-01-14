@@ -66,3 +66,4 @@ Python é usado diariamente por empresas como Google, Netflix, Spotify e institu
 * Desenvolvimento de APIs e serviços
 
 👉 Dominar Python significa ter uma **ferramenta versátil** aplicável em diversos contextos profissionais.
+
