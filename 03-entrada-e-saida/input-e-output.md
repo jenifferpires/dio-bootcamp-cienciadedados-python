@@ -2,7 +2,8 @@
 
 ## 📖 Introdução:
 
-Entrada e saída de dados são fundamentais para permitir a interação entre o usuário e o programa. Em Python, isso é feito principalmente por meio das funções `input()` e `print()`, que possibilitam receber informações e exibir resultados de forma simples e eficiente.
+Entrada e saída de dados são fundamentais para permitir a interação entre o usuário e o programa.  
+Em Python, isso é feito principalmente por meio das funções `input()` e `print()`, que possibilitam receber informações e exibir resultados de forma simples e eficiente.
 
 ---
 
@@ -66,10 +67,10 @@ numero = int(input("Digite um número: "))  # Digitar letras gera erro
 
 ## ✅ Boas práticas: 
 
-* Sempre validar entradas do usuário. 
-* Converter tipos explicitamente. 
-* Usar mensagens claras no `input()`. 
-* Utilizar f-strings para melhorar a legibilidade do `print()`. 
+* Sempre validar entradas do usuário.   
+* Converter tipos explicitamente.   
+* Usar mensagens claras no `input()`.   
+* Utilizar f-strings para melhorar a legibilidade do `print()`.   
 
 ---
 
