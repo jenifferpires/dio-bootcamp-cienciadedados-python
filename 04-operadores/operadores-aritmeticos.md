@@ -1,7 +1,7 @@
 # 📌 Operadores Aritméticos em Python. 
 
 ## 📖 Introdução: 
-Operadores aritméticos são utilizados para realizar cálculos matemáticos básicos.
+Operadores aritméticos são utilizados para realizar cálculos matemáticos básicos.  
 Eles estão presentes em praticamente qualquer sistema, desde cálculos simples até
 processamentos complexos de dados.
 
@@ -95,18 +95,18 @@ print(10 // 3)  # 3
 
 ### ✅ Boas práticas: 
 
-Use // apenas quando a divisão inteira fizer sentido.
-Verifique divisões por zero.
-Utilize variáveis com nomes claros.
-Prefira clareza ao invés de expressões complexas.
+Use // apenas quando a divisão inteira fizer sentido.  
+Verifique divisões por zero.  
+Utilize variáveis com nomes claros.  
+Prefira clareza ao invés de expressões complexas.  
 
 ### 🌍 Ligação com o mundo real: 
 
-Operadores aritméticos estão presentes em:
+Operadores aritméticos estão presentes em:  
 
-Sistemas financeiros. 
-Análises de dados. 
-Relatórios e dashboards. 
-Cálculos de métricas e indicadores. 
+Sistemas financeiros.   
+Análises de dados.   
+Relatórios e dashboards.   
+Cálculos de métricas e indicadores.  
 
 Eles formam a base para qualquer processamento numérico em Python.
