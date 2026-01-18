@@ -32,11 +32,11 @@ Este repositório foi pensado tanto para **aprendizado contínuo** quanto para *
 
 Todos os conteúdos seguem o mesmo padrão interno, independentemente do tema:
 
-1️⃣ **O que é** (conceito simples).  
-2️⃣ **Para que serve** (quando usar). 
-3️⃣ **Exemplo técnico real**.  
-4️⃣ **Erro comum / armadilha**.  
-5️⃣ **Ligação com o mundo real**.  
+1️⃣ **O que é** (conceito simples).   
+2️⃣ **Para que serve** (quando usar).  
+3️⃣ **Exemplo técnico real**.   
+4️⃣ **Erro comum / armadilha**.   
+5️⃣ **Ligação com o mundo real**.   
 
 Esse padrão garante:
 
