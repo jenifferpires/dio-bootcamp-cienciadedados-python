@@ -1,52 +1,89 @@
-# 🐍 Módulo 01 — Fundamentos de Python. 
+# 🚀 DIO Bootcamp Santander 2025 — Ciência de Dados com Python. 
 
-Este módulo apresenta os **conceitos fundamentais da linguagem Python**, servindo como base para todos os demais temas do bootcamp.
+Este repositório documenta **meu aprendizado prático e aplicado** ao longo do **Bootcamp Santander 2025 – Ciência de Dados com Python**, oferecido pela **DIO (Digital Innovation One)**.
 
-O foco aqui não é apenas executar código, mas **entender como e por que as coisas funcionam**, sempre conectando os conceitos com situações reais do dia a dia profissional.
+Mais do que exercícios isolados, este repositório foi estruturado como um **portfólio técnico**, com foco em:
 
----
-
-## 🎯 Objetivo do módulo:
-
-Ao final deste módulo, você será capaz de:
-
-* Entender o que é Python e onde ele é utilizado. 
-* Reconhecer os principais tipos de dados da linguagem. 
-* Trabalhar com entrada e saída de dados. 
-* Utilizar operadores básicos. 
-* Aplicar boas práticas desde o início. 
+* Clareza conceitual. 
+* Aplicação no mundo real. 
+* Boas práticas de desenvolvimento. 
+* Versionamento consciente com Git e GitHub. 
 
 ---
 
-## 🧠 Padrão de aprendizado adotado:
+## 🎯 Objetivo do repositório: 
 
-Todos os arquivos deste módulo seguem o mesmo padrão:
+Demonstrar, de forma progressiva e organizada:
 
-1️⃣ O que é (conceito simples). 
-2️⃣ Para que serve (quando usar). 
-3️⃣ Exemplo técnico real. 
-4️⃣ Erro comum / armadilha. 
-5️⃣ Ligação com o mundo real. 
+* Fundamentos sólidos de Python
+* Lógica de programação e estruturas de controle
+* Uso profissional de Git e GitHub
+* Manipulação e análise de dados
+* SQL e bancos de dados
+* Visualização de dados
+* Conceitos iniciais de Machine Learning
+* Projetos práticos integrando os conhecimentos
 
-Esse formato garante **clareza conceitual**, **aplicação prática** e **consistência técnica**.
+Este repositório foi pensado tanto para **aprendizado contínuo** quanto para **avaliação por recrutadores técnicos**.
 
 ---
 
-## 📁 Estrutura do módulo:
+## 🧠 Padrão de conteúdo adotado: 
+
+Todos os conteúdos seguem o mesmo padrão interno, independentemente do tema:
+
+1️⃣ **O que é** (conceito simples).  
+2️⃣ **Para que serve** (quando usar). 
+3️⃣ **Exemplo técnico real**.  
+4️⃣ **Erro comum / armadilha**.  
+5️⃣ **Ligação com o mundo real**.  
+
+Esse padrão garante:
+
+* Entendimento rápido.  
+* Aprendizado sólido.  
+* Validação técnica.  
+
+---
+
+## 📁 Estrutura do repositório:  
+
 ```
-01-fundamentos-python/
-├── 01-introducao-ao-python/
-├── 02-tipos-de-dados/
-├── 03-entrada-e-saida/
-├── 04-operadores/
-├── 05-boas-praticas/
+dio-bootcamp/
+├── 01-fundamentos-python/
+├── 02-logica-e-estruturas/
+├── 03-git-e-github/
+├── 04-sql-e-bancos-de-dados/
+├── 05-analise-de-dados/
+├── 06-visualizacao-de-dados/
+├── 07-machine-learning/
+├── 08-projetos/
 └── README.md
 ```
+
+Cada pasta representa um **módulo do bootcamp**, com conteúdos documentados em Markdown (`.md`) e exemplos práticos.
+
 ---
 
-## 📌 Observação: 
+## 🛠️ Tecnologias e ferramentas: 
 
-Este módulo é essencial para consolidar uma base sólida em Python. 
-Mesmo conceitos considerados simples são tratados aqui com profundidade suficiente para evitar erros comuns em projetos reais.
+* Python
+* Git e GitHub
+* SQL
+* Pandas
+* NumPy
+* Ferramentas de visualização de dados
+* Conceitos de Machine Learning
 
-> *Fundamentos bem construídos evitam problemas complexos no futuro.*
+---
+
+## 📌 Observação final: 
+
+Este repositório está em constante evolução, acompanhando o progresso no bootcamp e a consolidação dos conhecimentos.
+
+📅 Bootcamp: **Santander 2025 — Ciência de Dados com Python**  
+🎓 Plataforma: **[DIO](https://web.dio.me/track/santander-2025-ciencia-de-dados-com-python)**.
+
+---
+
+> *Aprender é construir. Versionar é evoluir.*
