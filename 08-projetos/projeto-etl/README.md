@@ -1,124 +1,188 @@
-# Projeto ETL com IA Generativa – Bootcamp Santander DIO.
+# 📊 Projeto ETL com IA Generativa (Bootcamp DIO). 
 
-## 📌 Contexto: 
+## 📌 Visão Geral: 
 
-Este projeto foi desenvolvido como parte do **Bootcamp Santander 2025 – Ciência de Dados com Python**, promovido pela **Digital Innovation One (DIO)**.  
-O desafio tem como objetivo aplicar, de forma prática, os conceitos fundamentais de **ETL (Extract, Transform, Load)**, integrando **Python**, **manipulação de dados** e **Inteligência Artificial Generativa** em um cenário inspirado em problemas reais do mercado.
+Este projeto foi desenvolvido como parte do **Bootcamp de Ciência de Dados com Python da DIO**, com o objetivo de aplicar, de forma prática e didática, os conceitos fundamentais de **ETL (Extract, Transform, Load)** aliados ao uso **simulado de IA Generativa**.
 
-Ao longo do bootcamp, foram abordados temas como:
-- Fundamentos de Python
-- Manipulação e análise de dados
-- Bancos de dados SQL e NoSQL
-- Conceitos de ETL
-- Boas práticas de versionamento com Git e GitHub
-- Aplicações práticas de Ciência de Dados
+A solução implementa um pipeline completo capaz de:
 
-Este projeto consolida esses aprendizados em uma solução prática e organizada.
+* Extrair dados de usuários a partir de um arquivo CSV.  
+* Transformar esses dados, gerando mensagens personalizadas de marketing com apoio de lógica inspirada em IA Generativa.  
+* Carregar o resultado final em um novo arquivo CSV.  
+
+O projeto possui caráter **acadêmico, colaborativo e demonstrativo**, sendo voltado tanto para aprendizado quanto para portfólio.
 
 ---
 
-## 🎯 Objetivo do Projeto: 
+## 🎯 Objetivo do Projeto:  
 
-Construir um **pipeline ETL completo** utilizando Python, simulando um fluxo de dados onde:
-
-1. Dados de usuários são **extraídos** a partir de um arquivo CSV  
-2. Esses dados são **transformados** com o apoio de IA Generativa para criação de mensagens personalizadas  
-3. Os dados transformados são **carregados** em um novo arquivo, representando a entrega final do pipeline  
-
-O foco principal não está na ferramenta em si, mas no **entendimento do fluxo de dados entre as etapas do ETL**, conforme proposto no desafio.
+* Consolidar o entendimento do processo ETL.  
+* Aplicar boas práticas de organização de código em Python.  
+* Simular o uso de IA Generativa em um contexto de negócio.  
+* Atender integralmente aos requisitos do desafio proposto no bootcamp.  
 
 ---
 
-## 🧩 Descrição do Pipeline ETL: 
+## 🧠 Conceitos Abordados no Bootcamp:  
 
-### 🔹 Extract (Extração)
-Os dados dos usuários são extraídos de um arquivo CSV contendo informações básicas como:
-- Identificador do usuário
-- Nome
-- Conta
-- Cartão (mascarado)
-
-Essa etapa simula a obtenção de dados a partir de uma fonte externa, como APIs ou bases de dados.
-
-### 🔹 Transform (Transformação): 
-Na etapa de transformação, os dados extraídos são enriquecidos com **mensagens personalizadas de marketing**, simulando o uso de **IA Generativa (ChatGPT/OpenAI)**.
-
-Devido à possível indisponibilidade da API utilizada no desafio original, foi adotada uma abordagem alternativa, conforme sugerido no próprio desafio, mantendo o foco no aprendizado de Python e ETL.
-
-### 🔹 Load (Carregamento)
-Por fim, os dados transformados são salvos em um novo arquivo CSV, representando o carregamento das informações para consumo posterior por outros sistemas ou análises.
+* Fundamentos de Python.  
+* Manipulação de dados com Pandas.  
+* Estruturação de projetos em Python.  
+* Pipeline ETL (Extract, Transform, Load).  
+* Separação de responsabilidades.  
+* Versionamento de código com Git e GitHub.  
+* Boas práticas para projetos acadêmicos.  
 
 ---
 
-## 🗂️ Estrutura do Projeto: 
+## 🗂️ Estrutura do Projeto:  
 
 ```text
-projeto-etl/
+etl_ia_pipeline/
 │
 ├── README.md
+├── requirements.txt
+├── main.py
 │
-├── etl_ia_pipeline/
-│   ├── README.md
-│   ├── requirements.txt
-│   ├── main.py
-│   │
-│   ├── data/
-│   │   ├── input/
-│   │   │   └── users.csv
-│   │   └── output/
-│   │       └── mensagens_marketing.csv
-│   │
-│   ├── extract/
-│   │   └── extract_users.py
-│   │
-│   ├── transform/
-│   │   └── generate_messages.py
-│   │
-│   └── load/
-│       └── save_results.py
+├── data/
+│   ├── input/
+│   │   └── users.csv
+│   └── output/
+│       └── mensagens_marketing.csv
 │
-└── .gitignore
+├── extract/
+│   └── extract_users.py
+│
+├── transform/
+│   └── generate_messages.py
+│
+└── load/
+    └── save_results.py
 ```
-Essa organização reflete boas práticas de projetos em Python e facilita a compreensão do fluxo ETL.
 
-### ▶️ Como Executar o Projeto: 
+---
 
-Clone este repositório: 
+## 🔄 Descrição do Pipeline ETL:  
+
+### 1️⃣ Extract – Extração dos Dados.  
+
+Responsável por:
+
+* Ler o arquivo `users.csv`
+* Validar a existência e o formato dos dados
+* Retornar um DataFrame com as informações dos usuários
+
+📄 Arquivo:
+
+```text
+extract/extract_users.py
+```
+
+---
+
+### 2️⃣ Transform – Transformação com IA Generativa (Simulada).  
+
+Responsável por:
+
+* Processar os dados extraídos  
+* Gerar mensagens personalizadas de marketing  
+* Simular o uso de IA Generativa com base em regras e templates  
+
+📄 Arquivo:
+
+```text
+transform/generate_messages.py
+```
+
+📌 Observação:
+
+> O uso de IA Generativa é **simulado**, conforme escopo do desafio, não sendo utilizada nenhuma API externa.
+
+---
+
+### 3️⃣ Load – Carregamento dos Dados.  
+
+Responsável por:
+
+* Receber os dados transformados
+* Persistir o resultado final no arquivo `mensagens_marketing.csv`
+
+📄 Arquivo:
+
+```text
+load/save_results.py
+```
+
+---
+
+## ▶️ Execução do Projeto.  
+
+### Pré-requisitos:  
+
+* Python 3.8+
+* Biblioteca Pandas
+
+### Instalação das dependências:  
 
 ```bash
-git clone https://github.com/jenifferpires/dio-bootcamp-cienciadedados-python.git
-```
-
-Acesse a pasta do projeto:
-```bash 
-cd 08-projetos/projeto-etl/etl_ia_pipeline
-```
-
-Instale as dependências:
-```bash 
 pip install -r requirements.txt
 ```
 
-Execute o pipeline ETL:
-```bash 
+### Execução do pipeline:  
+
+No diretório `etl_ia_pipeline`, execute:
+
+```bash
 python main.py
 ```
 
-Ao final da execução, o arquivo com as mensagens geradas estará disponível em:
-```bash 
+---
+
+## 📄 Resultado Esperado:  
+
+Após a execução, será gerado o arquivo:
+
+```text
 data/output/mensagens_marketing.csv
 ```
 
-## 📚 Aprendizados Consolidado neste Projeto:  
+Contendo:
 
-Estruturação de um pipeline ETL completo. 
-Leitura e escrita de arquivos CSV com Python. 
-Organização de projetos em camadas (Extract, Transform, Load).  
-Simulação de uso de IA Generativa aplicada a dados. 
-Boas práticas de versionamento com Git e GitHub. 
+* Dados dos usuários
+* Mensagens personalizadas geradas
 
-Desenvolvimento de projetos com foco educacional e colaborativo
+---
 
-#### 🤝 Considerações Finais: 
+## 🧪 Exemplo de Saída:  
 
-Este projeto faz parte de um repositório maior, construído ao longo do Bootcamp Santander DIO, e tem caráter educacional, servindo como evidência prática do aprendizado adquirido durante a jornada de formação em Ciência de Dados.
+```csv
+user_id,nome,conta,cartao,mensagem
+1,Ana Silva,12345-6,**** 4321,"Olá Ana Silva, investir é uma excelente forma de planejar o seu futuro financeiro. Conte com o Santander para te apoiar nessa jornada!"
+```
+
+---
+
+## 📚 Considerações Finais:  
+
+Este projeto cumpre integralmente os objetivos propostos pelo desafio, demonstrando:
+
+* Entendimento prático de pipelines ETL
+* Organização e modularização de código
+* Aplicação de conceitos aprendidos no bootcamp
+* Clareza e didática na implementação
+
+Trata-se de um projeto **educacional**, mas com estrutura próxima à utilizada em cenários reais de engenharia de dados.
+
+---
+
+## 👩‍💻 Autora:  
+
+**Jeniffer Pires**
+Projeto desenvolvido no contexto do **Bootcamp DIO – Ciência de Dados com Python**
+
+---
+
+## 🔗 Referências:  
+
+* [DIO – Digital Innovation One](https://www.dio.me)
+* Documentação oficial do Pandas
