@@ -29,7 +29,7 @@ O interpretador é responsável por ler e executar o código linha por linha.
 
 ---
 
-## 🧪 Exemplos práticos:  
+## 🧪 Exemplos práticos:   
 
 ### Verificando se o Python está instalado.
 
