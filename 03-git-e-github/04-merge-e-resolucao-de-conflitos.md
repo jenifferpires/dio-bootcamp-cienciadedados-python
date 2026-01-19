@@ -1,93 +1,104 @@
-# 📌 Fluxo de Trabalho com Git.
+# 📌 Merge e Resolução de Conflitos no Git.
 ## 📖 Introdução: 
 
-O fluxo de trabalho com Git define como o código evolui ao longo do tempo, desde a criação de uma funcionalidade até sua integração à versão principal do projeto.
-Seguir um fluxo bem definido é essencial para evitar conflitos, retrabalho e erros em ambientes colaborativos.
+Ao trabalhar com múltiplas branches, em algum momento será necessário unir alterações diferentes no mesmo projeto.  
+O processo de merge permite integrar essas mudanças, mas pode gerar conflitos quando o Git não consegue decidir automaticamente qual versão do código manter.
 
-## 🎯 Quando usar no dia a dia.
+Saber lidar com merges e conflitos é essencial em ambientes colaborativos.
 
-Desenvolvimento em equipe.  
-Criação de novas funcionalidades.  
-Correção de bugs.  
-Organização de versões.  
-Projetos versionados no GitHub.  
+## 🎯 Quando usar no dia a dia? 
 
-## 🧠 Conceito.  
+Integração de funcionalidades desenvolvidas em branches.  
+Correção de bugs em paralelo.    
+Atualização de código entre diferentes versões.    
+Trabalho em equipe com múltiplos desenvolvedores.    
 
-Um fluxo de trabalho com Git normalmente envolve:  
+## 🧠 Conceito:  
+#### 🔹 O que é merge?    
 
-1️⃣ Uma branch principal (main).   
-2️⃣ Branches auxiliares para novas funcionalidades ou correções.  
-3️⃣ Commits pequenos e frequentes.  
-4️⃣ Integração controlada das alterações.  
+Merge é o processo de combinar alterações de uma branch em outra, geralmente integrando uma branch de funcionalidade à branch principal (main).  
 
-Esse modelo permite que várias pessoas trabalhem no mesmo projeto sem sobrescrever o trabalho umas das outras.  
+#### 🔹 O que são conflitos?  
+
+Conflitos ocorrem quando:
+
+Duas branches alteram a mesma linha de um arquivo.  
+O Git não consegue identificar automaticamente qual alteração manter.  
 
 ## 🧪 Exemplos práticos:  
-🔹 Fluxo básico de desenvolvimento:
-
-1️⃣ Criar uma nova branch a partir da principal.
-```bash
-git checkout -b feature-nova-funcionalidade
-```
-
-2️⃣ Trabalhar normalmente no código.  
-3️⃣ Verificar alterações. 
-```bash
-git status
-```
-
-4️⃣ Adicionar arquivos.
-```bash
-git add .
-```
-
-5️⃣ Criar um commit.
-```bash
-git commit -m "feat: adiciona nova funcionalidade"
-```
-
-6️⃣ Enviar a branch para o repositório remoto.
-```bash
-git push origin feature-nova-funcionalidade
-``` 
-
-7️⃣ Integrar a branch à main (merge).
+🔹 Realizando um merge simples: 
 ```bash
 git checkout main
 git pull origin main
-git merge feature-nova-funcionalidade
+git merge feature-ajuste-relatorio
 ```
 
-### ⚠️ Erros comuns / armadilhas: 
+Se não houver conflitos, o merge é realizado automaticamente.  
 
-❌ Trabalhar diretamente na branch main.  
-❌ Fazer commits grandes e genéricos.  
-❌ Não atualizar a branch principal antes do merge.  
-❌ Ignorar conflitos de código.  
-❌ Não testar antes de integrar mudanças.  
+#### 🔹 Exemplo de conflito de merge:  
+
+Ao tentar um merge, o Git pode exibir:  
+```text
+CONFLICT (content): Merge conflict in arquivo.py
+```
+
+O arquivo conterá marcações como:
+```text
+<<<<<<< HEAD
+codigo_da_branch_principal  
+=======  
+codigo_da_feature
+>>>>>>> feature-ajuste-relatorio
+```
+
+
+#### 🔹 Resolvendo o conflito.
+
+1️⃣ Abrir o arquivo com conflito.  
+2️⃣ Escolher ou combinar o código correto.  
+3️⃣ Remover as marcações do Git.  
+4️⃣ Adicionar o arquivo corrigido.  
+
+```bash
+git add arquivo.py
+```
+
+5️⃣ Finalizar o merge
+```bash
+git commit -m "fix: resolve conflito de merge"
+```
+
+## ⚠️ Erros comuns / armadilhas.
+
+❌ Fazer merge sem atualizar a branch principal.  
+❌ Resolver conflitos sem entender o impacto no código.  
+❌ Apagar código importante por engano.  
+❌ Usar git reset para “resolver” conflitos.  
+❌ Commits genéricos após conflito.  
 
 ## ✅ Boas práticas: 
 
-✔️ Criar uma branch por funcionalidade ou correção.  
-✔️ Commits pequenos e com mensagens claras.  
-✔️ Atualizar a branch principal com frequência.  
-✔️ Revisar alterações antes do merge.  
-✔️ Testar o código localmente.  
+✔️ Atualizar a branch principal antes do merge.  
+✔️ Resolver conflitos com calma e atenção.  
+✔️ Testar o código após resolver conflitos.  
+✔️ Commits claros após resolução.  
+✔️ Usar branches curtas para reduzir conflitos.  
 
 ## 🌍 Ligação com o mundo real: 
 
-Esse fluxo é amplamente utilizado em:
+Conflitos de merge são comuns em: 
 
-Times de desenvolvimento corporativos.  
-Projetos open source.  
-Ambientes com CI/CD.  
-Versionamento de dados e pipelines em ciência de dados.  
+Times grandes.  
+Projetos com alta frequência de mudanças.  
+Ambientes corporativos e open source.  
 
-Dominar esse processo demonstra maturidade técnica e organização, dois pontos muito valorizados por recrutadores.  
+Saber resolver conflitos demonstra:  
+Capacidade de análise.    
+Organização.    
+Comunicação técnica.   
+Maturidade profissional.    
 
-#### 🧾 Observações finais:
+#### 🧾 Observações finais:  
 
-Este arquivo foca no fluxo, não nos detalhes técnicos de merge ou conflitos. 
-Esses tópicos são aprofundados no próximo conteúdo do módulo.
-
+Conflitos não são erros, mas parte natural do trabalho colaborativo.  
+O importante é saber identificá-los e resolvê-los corretamente.  
