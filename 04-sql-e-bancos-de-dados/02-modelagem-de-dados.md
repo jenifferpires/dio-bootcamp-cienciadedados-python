@@ -88,11 +88,10 @@ Os principais tipos são:
 
 * `N : N` → muitos para muitos (exige tabela intermediária). 
 
-Exemplo:
+Exemplo:    
+* Um cliente pode ter vários pedidos → `1:N`.  
 
-* Um cliente pode ter vários pedidos → `1:N`.
-
-## 🧪 Exemplos práticos: 
+## 🧪 Exemplos práticos:   
 #### 🔹 Exemplo 1 — Tabela de clientes. 
 ```sql
 CREATE TABLE clientes (
@@ -115,8 +114,8 @@ CREATE TABLE pedidos (
 ```
 📌 Aqui temos:
 
-Chave primária em `id_pedido`
-Chave estrangeira ligando pedido ao cliente.
+Chave primária em `id_pedido`  
+Chave estrangeira ligando pedido ao cliente.  
 
 ### ⚠️ Erros comuns / armadilhas:
 
