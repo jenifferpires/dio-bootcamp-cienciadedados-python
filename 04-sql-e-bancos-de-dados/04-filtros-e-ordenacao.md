@@ -1,141 +1,161 @@
 # 📌 Filtros e Ordenação em SQL.  
 
 ## 📖 Introdução:  
-Filtros e ordenação permitem **refinar os dados retornados** por uma consulta SQL.  
-Com eles, conseguimos buscar **apenas as informações relevantes** e organizá-las de forma clara para análise, relatórios ou validações.
+Filtros e ordenação permitem refinar os dados retornados por uma consulta SQL.
+Com eles, é possível buscar apenas informações relevantes e organizá-las de forma clara.
 
-Sem filtros, consultas retornam dados demais.    
-Sem ordenação, os resultados podem não fazer sentido para quem analisa.  
+Sem filtros, consultas retornam dados em excesso.
+Sem ordenação, os resultados podem perder sentido analítico.
 
 ---
 
-## 🎯 Quando usar no dia a dia?   
-Você usa filtros e ordenação quando precisa:
+## 🎯 Como usar no dia a dia?  
+Você utiliza filtros e ordenação quando precisa:
 
-- Buscar registros específicos.  
-- Aplicar regras de negócio em consultas.  
-- Analisar subconjuntos de dados.  
-- Organizar resultados para relatórios.  
-- Investigar dados fora do padrão.  
-- Preparar dados para dashboards.  
+- Buscar registros específicos.
+- Aplicar regras de negócio em consultas.
+- Analisar subconjuntos de dados.
+- Organizar resultados para relatórios.
+- Investigar dados fora do padrão.
+- Preparar dados para dashboards.
 
 ---
 
 ## 🧠 Conceito.  
 
 ### 🔹 WHERE — Filtro de registros:  
-O `WHERE` define **condições** para selecionar apenas os dados desejados.
+O `WHERE` define condições que determinam quais linhas serão retornadas.
 
-Operadores comuns:
-- `=`, `!=`, `>`, `<`, `>=`, `<=`
-- `IN`
-- `BETWEEN`
-- `LIKE`
-- `IS NULL`
+Principais operadores:
+
+- Comparação: `=`, `!=`, `<>`, `>`, `<`, `>=`, `<=`.
+- Conjuntos: `IN`.
+- Intervalos: `BETWEEN`.
+- Texto: `LIKE`.
+- Valores nulos: `IS NULL`, `IS NOT NULL`.
+- Lógicos: `AND`, `OR`, `NOT`.
 
 ---
 
 ### 🔹 ORDER BY — Ordenação:  
-O `ORDER BY` organiza o resultado da consulta.  
+O `ORDER BY` organiza os resultados da consulta.
 
-Tipos de ordenação:
-- `ASC` → crescente (padrão)
-- `DESC` → decrescente
+- `ASC`: ordem crescente (padrão).
+- `DESC`: ordem decrescente.
+
+A ordenação ocorre após a aplicação dos filtros.
 
 ---
 
 ## 🧪 Exemplos práticos:  
 
-### 🔹 Exemplo 1 — Filtro simples:  
+### 🔹 Filtro simples:  
 ```sql
 SELECT *
 FROM clientes
 WHERE cidade = 'São Paulo';
 ```
-📌 Retorna apenas clientes da cidade informada.
+Explicação:  
+📌Retorna apenas clientes da cidade informada.  
 
-### 🔹 Exemplo 2 — Filtro numérico: 
+### 🔹 Filtro numérico: 
 ```sql
 SELECT *
 FROM pedidos
 WHERE valor_total > 1000;
 ```
-📌 Retorna pedidos acima de determinado valor.
+Explicação:    
+📌Retorna pedidos com valor acima de 1000.  
 
-### 🔹 Exemplo 3 — Filtro com múltiplas condições:  
+### 🔹 Filtro com múltiplas condições (AND):  
 ```sql
 SELECT *
 FROM pedidos
 WHERE valor_total > 500
   AND status = 'APROVADO';
-```
-📌 Ambas as condições precisam ser verdadeiras.  
+  ```
+Explicação:  
+📌 Ambas as condições precisam ser verdadeiras.
 
-### 🔹 Exemplo 4 — Filtro com IN:  
+### 🔹 Filtro com OR:  
+```sql
+SELECT *
+FROM pedidos
+WHERE status = 'APROVADO'
+   OR status = 'PENDENTE';
+```
+Explicação:  
+📌Retorna pedidos aprovados ou pendentes.
+
+### 🔹 Filtro com IN:  
 ```sql
 SELECT *
 FROM clientes
 WHERE estado IN ('SP', 'RJ', 'MG');
 ``` 
-📌 Retorna clientes de estados específicos.  
+Explicação:    
+📌Retorna clientes localizados nos estados informados.  
 
-### 🔹 Exemplo 5 — Filtro com intervalo: 
+### 🔹 Filtro por intervalo (BETWEEN):  
 ```sql
 SELECT *
 FROM pedidos
 WHERE data_pedido BETWEEN '2024-01-01' AND '2024-12-31';
-```
-📌 Retorna pedidos dentro do período informado.  
+``` 
+Explicação:  
+📌Retorna pedidos dentro do período especificado.  
 
-### 🔹 Exemplo 6 — Ordenação simples:
+### 🔹 Filtro com LIKE:  
+```sql
+SELECT *
+FROM clientes
+WHERE email LIKE '%@gmail.com';
+```
+Explicação:  
+📌Retorna clientes com e-mails do domínio Gmail.
+
+### 🔹 Ordenação simples:  
 ```sql
 SELECT nome, salario
 FROM funcionarios
 ORDER BY salario DESC;
 ```
-📌 Lista funcionários do maior para o menor salário.  
+Explicação:    
+📌Ordena os funcionários do maior para o menor salário.  
 
-### 🔹 Exemplo 7 — Filtro + ordenação:  
+### 🔹 Filtro combinado com ordenação:  
 ```sql
 SELECT nome, salario
 FROM funcionarios
 WHERE salario > 3000
 ORDER BY salario ASC;
 ```
-📌 Filtra e organiza os resultados.  
- 
-## ⚠️ Erros comuns / armadilhas:  
+Explicação:  
+📌Filtra salários acima de 3000 e ordena do menor para o maior.  
 
-❌ Esquecer o WHERE e retornar dados demais.  
-❌ Usar LIKE quando = seria suficiente.  
-❌ Comparar valores nulos com =  
-❌ Ordenar dados sem entender o critério. 
-❌ Criar filtros confusos ou difíceis de manter.  
+### 🔹 Ordenação por múltiplas colunas:  
+```sql
+SELECT *
+FROM pedidos
+ORDER BY status ASC, data_pedido DESC;
+```
+Explicação:  
+📌Ordena primeiro por status e, em seguida, pela data mais recente.  
 
-## ✅ Boas práticas:  
+## ⚠️ Erros comuns:  
+Esquecer o `WHERE` e retornar dados em excesso.  
+Comparar valores nulos usando =.  
+Misturar `AND` e `OR` sem parênteses.  
+Usar `LIKE` sem necessidade.  
+Ordenar grandes volumes sem critério.  
 
-✔️ Sempre valide filtros com poucos dados antes.  
-✔️ Use AND / OR com cuidado.  
-✔️ Prefira IN a múltiplos OR.  
-✔️ Use ordenação apenas quando necessário.  
-✔️ Mantenha condições claras e legíveis.  
-
-### 📝 Observações:  
-
-WHERE filtra antes da ordenação.  
-Comparações com NULL devem usar IS NULL.  
-Filtros mal definidos impactam desempenho.  
-
-Leitura clara é mais importante que consultas “curtas”.  
+### ✅ Boas práticas:  
+Teste filtros com poucos registros antes de rodar consultas grandes.  
+Use parênteses ao combinar condições lógicas.  
+Prefira clareza à complexidade.  
+Evite `SELECT *` em consultas finais.  
+Padronize a formatação do SQL.  
 
 ## 🌍 Ligação com o mundo real:  
-
-Filtros e ordenação são usados em:
-
-Relatórios financeiros.  
-Dashboards executivos.  
-Auditorias de dados.  
-Monitoramento de sistemas.  
-Análises exploratórias.  
-
-Dominar filtros significa extrair exatamente o dado certo, no momento certo.
+Filtros e ordenação são usados em relatórios, dashboards, auditorias e análises.  
+Dominar esses recursos evita interpretações erradas e melhora a qualidade das decisões baseadas em dados.  
