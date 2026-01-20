@@ -149,13 +149,24 @@ Misturar `AND` e `OR` sem parênteses.
 Usar `LIKE` sem necessidade.  
 Ordenar grandes volumes sem critério.  
 
-### ✅ Boas práticas:  
-Teste filtros com poucos registros antes de rodar consultas grandes.  
-Use parênteses ao combinar condições lógicas.  
-Prefira clareza à complexidade.  
-Evite `SELECT *` em consultas finais.  
-Padronize a formatação do SQL.  
+## ✅ Boas práticas:  
+
+Antes de rodar filtros em massa, teste com `LIMIT` para validar o resultado.  
+Use `IN` quando fizer sentido, em vez de vários `OR`.  
+Ao misturar `AND` e `OR`, use parênteses para explicitar a lógica.  
+Selecione apenas colunas necessárias, em vez de `SELECT *`, quando for consulta “de verdade”.  
+Padronize a formatação para facilitar leitura e revisão.  
+
+### 📝 Observações: 
+
+`WHERE` filtra linhas; 
+`ORDER BY` apenas organiza o resultado.  
+
+Em bancos diferentes, pequenos detalhes podem variar (por exemplo, != vs <>), mas a lógica é a mesma.  
+  
+Filtros e ordenações são comuns em relatórios e análises, então clareza é prioridade.  
 
 ## 🌍 Ligação com o mundo real:  
-Filtros e ordenação são usados em relatórios, dashboards, auditorias e análises.  
-Dominar esses recursos evita interpretações erradas e melhora a qualidade das decisões baseadas em dados.  
+
+Filtros e ordenação aparecem em praticamente tudo: relatórios financeiros, dashboards, auditorias, monitoramento e investigações de incidentes.   
+Saber montar filtros corretos (principalmente com `AND/OR` e `NULL`) evita conclusões erradas e retrabalho.
