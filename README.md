@@ -1,24 +1,24 @@
-# 🚀 Bootcamp Santander 2025 — Ciência de Dados com Python.  
+# 🚀 Bootcamp Santander 2025 — Ciência de Dados com Python.    
 
-Este repositório reúne os estudos, práticas e projetos desenvolvidos durante o **Bootcamp Santander 2025 – Ciência de Dados com Python**, oferecido pela **DIO (Digital Innovation One)**.
+Este repositório reúne os **estudos, práticas e projetos desenvolvidos** durante o **Bootcamp Santander 2025 – Ciência de Dados com Python**, oferecido pela **DIO (Digital Innovation One)**.
 
-O objetivo não é apenas registrar conteúdos, mas **demonstrar aprendizado aplicado**, organização, raciocínio analítico e maturidade técnica.
-
----
-
-## 🎯 Objetivo do Repositório:
-
-- Consolidar fundamentos de Python e Ciência de Dados
-- Aplicar conceitos em projetos práticos
-- Demonstrar capacidade analítica e técnica
-- Servir como portfólio profissional
-- Evoluir progressivamente do básico ao aplicado
+Mais do que registrar conteúdos, este repositório tem como objetivo **demonstrar aprendizado aplicado**, organização, raciocínio analítico e **maturidade técnica**, refletindo uma evolução progressiva ao longo da trilha.
 
 ---
 
-## 🧠 Estrutura Geral: 
+## 🎯 Objetivo do Repositório:   
 
-O repositório está organizado por **módulos de aprendizado** e **projetos práticos**, seguindo uma progressão lógica.
+- Consolidar fundamentos de Python e Ciência de Dados  
+- Aplicar conceitos em projetos práticos e desafios reais  
+- Desenvolver pensamento analítico e estruturação de soluções  
+- Demonstrar domínio progressivo das ferramentas da área de dados  
+- Servir como **portfólio técnico e profissional**
+
+---
+
+## 🧠 Estrutura Geral:  
+
+O repositório está organizado por **módulos de aprendizado** e **projetos práticos**, seguindo uma progressão lógica — do fundamento à aplicação.
 
 ```text
 ├── 01-fundamentos-python/
@@ -31,90 +31,69 @@ O repositório está organizado por **módulos de aprendizado** e **projetos pr�
 └── 08-projetos/
 ```
 
----
-
 ## 📘 Módulos de Estudo:  
 
-### 🐍 01 — Fundamentos de Python. 
-Introdução à linguagem Python, tipos de dados, operadores, entrada e saída e boas práticas.
+#### 🐍 01 — Fundamentos de Python:  
+Introdução à linguagem Python, tipos de dados, operadores, entrada e saída e boas práticas de escrita de código.
 
----
+#### 🔁 02 — Lógica e Estruturas:  
+Estruturas condicionais, laços de repetição e controle de fluxo aplicados à resolução de problemas computacionais.
 
-### 🔁 02 — Lógica e Estruturas.  
-Estruturas condicionais, laços de repetição e controle de fluxo aplicados à resolução de problemas.
+#### 🌱 03 — Git e GitHub:  
+Versionamento de código, fluxo de trabalho com branches, merges, resolução de conflitos e uso prático do GitHub em ambientes colaborativos.
 
----
+#### 🗄️ 04 — SQL e Bancos de Dados:  
+Consultas SQL, filtros, joins, agrupamentos, subqueries e boas práticas para análise de dados diretamente em bancos relacionais.
 
-### 🌱 03 — Git e GitHub.  
-Versionamento de código, fluxo de trabalho, branches, merges, resolução de conflitos e uso prático do GitHub.
+#### 📊 05 — Análise de Dados:  
+Análise exploratória (EDA), estatística descritiva, tratamento de dados ausentes, identificação de outliers e preparação de dados para análise.
 
----
+#### 📈 06 — Visualização de Dados:  
+Tipos de gráficos, boas práticas de visualização, erros comuns e comunicação clara de insights por meio de gráficos.
 
-### 🗄️ 04 — SQL e Bancos de Dados.  
-Consultas SQL, filtros, joins, agrupamentos e análise de dados diretamente no banco.
+#### 🤖 07 — Machine Learning:  
+(Em desenvolvimento)
+Conceitos fundamentais, tipos de modelos e aplicação prática de aprendizado de máquina.
 
----
+### 🧪 Projetos Práticos:  
+Os projetos consolidam o aprendizado aplicado em cenários próximos ao mundo real, reforçando habilidades técnicas e analíticas.
 
-### 📊 05 — Análise de Dados.  
-Exploração, estatística descritiva, tratamento de dados ausentes, outliers e preparação de dados para análise.
+#### 🔹 Projeto de Modelagem em Python:  
+Resolução de desafios utilizando lógica e estruturas de dados.  
 
----
+Leitura, processamento e transformação de dados.  
 
-### 📈 06 — Visualização de Dados.  
-Tipos de gráficos, boas práticas de visualização e comunicação clara de insights por meio de gráficos.
+Organização de código e geração de resultados consistentes.  
 
----
+#### 🔹 Projeto ETL com Python:  
+Pipeline de Extração, Transformação e Carga (ETL).  
 
-### 🤖 07 — Machine Learning.  
-(Em desenvolvimento)  
-Modelos, conceitos fundamentais e aplicação prática de aprendizado de máquina.
+Estrutura modular e reutilizável.  
 
----
+Simulação de cenário real de engenharia de dados.  
 
-## 🧪 Projetos Práticos.  
+#### 🔹 Projeto Dashboard de Vendas — Excel:  
+Organização e análise de dados de vendas.  
 
-Os projetos consolidam o aprendizado aplicado em cenários próximos ao mundo real.
+Definição de métricas e indicadores de desempenho.  
 
-### 🔹 Projeto de Modelagem em Python:  
-- Resolução de desafios com lógica, leitura de dados e processamento.
-- Organização de dados e geração de resultados.
+Desenvolvimento de dashboard interativo no Excel.  
 
----
+Ênfase em clareza visual, análise de dados e tomada de decisão.  
 
-### 🔹 Projeto ETL com Python:  
-- Pipeline de extração, transformação e carga.
-- Estrutura modular.
-- Simulação de cenário real de engenharia de dados.
+Embora utilize Excel como ferramenta, o foco do projeto está na análise e visualização de dados, competências centrais da área de dados.
 
----
+### 🛠️ Ferramentas e Tecnologias:  
+Python
+Pandas
+SQL
+Git e GitHub
+Excel (Dashboards)
+Matplotlib / Seaborn (em progresso)
 
-### 🔹 Projeto Dashboard de Vendas — Excel:  
-- Organização e análise de dados de vendas.
-- Criação de métricas e indicadores.
-- Desenvolvimento de dashboard interativo no Excel.
-- Ênfase em clareza visual e tomada de decisão.
+#### 👩‍💻 Autora:  
+**Jeniffer Pires** 
+- Bootcamp Santander 2025 — Ciência de Dados com Python -  
+Plataforma: DIO – Digital Innovation One.   
 
-> Embora utilize Excel, o foco está na **análise e visualização de dados**, competências centrais da área de dados.
-
----
-
-## 🛠️ Ferramentas e Tecnologias:  
-
-- Python
-- Pandas
-- SQL
-- Git e GitHub
-- Excel (Dashboards)
-- Matplotlib / Seaborn (em progresso)
-
----
-
-## 👩‍💻 Autora:  
-
-**Jeniffer Pires**  
-Bootcamp **Santander 2025 — Ciência de Dados com Python**  
-Plataforma: **DIO – Digital Innovation One**
-
----
-
-> *Aprender dados é aprender a transformar informação em decisão.*
+* Aprender dados é aprender a transformar informação em decisão.
