@@ -1,86 +1,120 @@
-# 📦 Módulo 03 – Git e GitHub
+# 🚀 Bootcamp Santander 2025 — Ciência de Dados com Python.  
 
-## 📖 Introdução
-Este módulo aborda os fundamentos e o uso prático do **Git** e do **GitHub**, ferramentas essenciais para controle de versão, colaboração em equipe e organização de projetos.  
-O conteúdo foi estruturado para evoluir do básico ao uso profissional, com foco em boas práticas e aplicação no mundo real.
+Este repositório reúne os estudos, práticas e projetos desenvolvidos durante o **Bootcamp Santander 2025 – Ciência de Dados com Python**, oferecido pela **DIO (Digital Innovation One)**.
 
----
-
-## 🎯 Objetivo do módulo
-Ao final deste módulo, é possível:
-- Utilizar o Git para versionar projetos
-- Trabalhar com branches e fluxo de desenvolvimento
-- Realizar merges e resolver conflitos
-- Aplicar boas práticas de versionamento
-- Utilizar o GitHub como ferramenta de colaboração e portfólio
+O objetivo não é apenas registrar conteúdos, mas **demonstrar aprendizado aplicado**, organização, raciocínio analítico e maturidade técnica.
 
 ---
 
-## 🧠 Conteúdos abordados
+## 🎯 Objetivo do Repositório:
 
-### 📄 01 – Introdução ao Git
-- O que é Git
-- Para que serve
-- Controle de versões
-- Conceitos iniciais
-
----
-
-### 📄 02 – Comandos Essenciais
-- `git init`, `status`, `add`, `commit`
-- Histórico de commits
-- Comparação e restauração de arquivos
+- Consolidar fundamentos de Python e Ciência de Dados
+- Aplicar conceitos em projetos práticos
+- Demonstrar capacidade analítica e técnica
+- Servir como portfólio profissional
+- Evoluir progressivamente do básico ao aplicado
 
 ---
 
-### 📄 03 – Fluxo de Trabalho
-- Uso de branches
-- Organização do desenvolvimento
-- Integração de funcionalidades
-- Fluxo colaborativo com Git
+## 🧠 Estrutura Geral: 
+
+O repositório está organizado por **módulos de aprendizado** e **projetos práticos**, seguindo uma progressão lógica.
+
+```text
+├── 01-fundamentos-python/
+├── 02-logica-e-estruturas/
+├── 03-git-e-github/
+├── 04-sql-e-bancos-de-dados/
+├── 05-analise-de-dados/
+├── 06-visualizacao-de-dados/
+├── 07-machine-learning/
+└── 08-projetos/
+```
 
 ---
 
-### 📄 04 – Merge e Resolução de Conflitos
-- Processo de merge
-- Tipos de conflitos
-- Resolução manual
-- Boas práticas para evitar problemas
+## 📘 Módulos de Estudo:  
+
+### 🐍 01 — Fundamentos de Python. 
+Introdução à linguagem Python, tipos de dados, operadores, entrada e saída e boas práticas.
 
 ---
 
-### 📄 05 – .gitignore e Boas Práticas
-- Uso do `.gitignore`
-- Proteção de arquivos sensíveis
-- Organização do repositório
-- Padrões profissionais de versionamento
+### 🔁 02 — Lógica e Estruturas.  
+Estruturas condicionais, laços de repetição e controle de fluxo aplicados à resolução de problemas.
 
 ---
 
-### 📄 06 – GitHub na Prática
-- Criação de repositórios
-- Integração com Git local
-- Uso de Issues e Pull Requests
-- GitHub como vitrine profissional
+### 🌱 03 — Git e GitHub.  
+Versionamento de código, fluxo de trabalho, branches, merges, resolução de conflitos e uso prático do GitHub.
 
 ---
 
-## 🌍 Aplicação no mundo real
-Os conceitos apresentados neste módulo são utilizados diariamente em:
-- Times de desenvolvimento de software
-- Projetos de ciência de dados
-- Ambientes corporativos
-- Projetos open source
-
-O domínio dessas ferramentas é considerado **requisito básico** em vagas técnicas.
+### 🗄️ 04 — SQL e Bancos de Dados.  
+Consultas SQL, filtros, joins, agrupamentos e análise de dados diretamente no banco.
 
 ---
 
-## 🧾 Observações finais
-Este módulo foi construído seguindo um padrão didático que prioriza:
-- Clareza conceitual
-- Exemplos práticos
-- Boas práticas profissionais
-- Organização para portfólio
+### 📊 05 — Análise de Dados.  
+Exploração, estatística descritiva, tratamento de dados ausentes, outliers e preparação de dados para análise.
 
 ---
+
+### 📈 06 — Visualização de Dados.  
+Tipos de gráficos, boas práticas de visualização e comunicação clara de insights por meio de gráficos.
+
+---
+
+### 🤖 07 — Machine Learning.  
+(Em desenvolvimento)  
+Modelos, conceitos fundamentais e aplicação prática de aprendizado de máquina.
+
+---
+
+## 🧪 Projetos Práticos.  
+
+Os projetos consolidam o aprendizado aplicado em cenários próximos ao mundo real.
+
+### 🔹 Projeto de Modelagem em Python:  
+- Resolução de desafios com lógica, leitura de dados e processamento.
+- Organização de dados e geração de resultados.
+
+---
+
+### 🔹 Projeto ETL com Python:  
+- Pipeline de extração, transformação e carga.
+- Estrutura modular.
+- Simulação de cenário real de engenharia de dados.
+
+---
+
+### 🔹 Projeto Dashboard de Vendas — Excel:  
+- Organização e análise de dados de vendas.
+- Criação de métricas e indicadores.
+- Desenvolvimento de dashboard interativo no Excel.
+- Ênfase em clareza visual e tomada de decisão.
+
+> Embora utilize Excel, o foco está na **análise e visualização de dados**, competências centrais da área de dados.
+
+---
+
+## 🛠️ Ferramentas e Tecnologias:  
+
+- Python
+- Pandas
+- SQL
+- Git e GitHub
+- Excel (Dashboards)
+- Matplotlib / Seaborn (em progresso)
+
+---
+
+## 👩‍💻 Autora:  
+
+**Jeniffer Pires**  
+Bootcamp **Santander 2025 — Ciência de Dados com Python**  
+Plataforma: **DIO – Digital Innovation One**
+
+---
+
+> *Aprender dados é aprender a transformar informação em decisão.*
