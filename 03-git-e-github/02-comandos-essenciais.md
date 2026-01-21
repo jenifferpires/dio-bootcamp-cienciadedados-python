@@ -18,7 +18,7 @@ O Git trabalha com três áreas principais:
 
 1️⃣ Working Directory – arquivos locais.  
 2️⃣ Staging Area – arquivos preparados para commit.  
-3️⃣ Repository – histórico versionado.  
+3️⃣ Repository – histórico versionado. 
 
 Os comandos permitem mover arquivos entre essas áreas de forma controlada.
 

@@ -12,7 +12,7 @@ Projetos Python.
 Ambientes virtuais. 
 Trabalhos em equipe. 
 Repositórios públicos.  
-Projetos com dados sensíveis.  
+Projetos com dados sensíveis.   
 
 ## 🧠 Conceito: 
 🔹 O que é o .gitignore?  

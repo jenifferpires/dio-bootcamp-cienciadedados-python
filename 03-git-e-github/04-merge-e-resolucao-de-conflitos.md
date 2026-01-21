@@ -13,7 +13,7 @@ Saber lidar com merges e conflitos é essencial em ambientes colaborativos e pro
 - Correção de bugs em paralelo.  
 - Atualização de código entre versões diferentes.  
 - Trabalho em equipe com múltiplos desenvolvedores.  
-- Recuperação de problemas causados por merges mal resolvidos.  
+- Recuperação de problemas causados por merges mal resolvidos.   
 
 ---
 

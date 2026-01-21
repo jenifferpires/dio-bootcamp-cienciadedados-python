@@ -106,4 +106,4 @@ Esse fluxo inicializa um repositório, adiciona arquivos e cria o primeiro commi
 
 O Git não é apenas uma ferramenta, mas uma **forma de trabalhar**. Dominar seus conceitos desde o início evita erros, melhora a colaboração e demonstra maturidade técnica.
 
-Nos próximos arquivos, veremos comandos essenciais, fluxos de trabalho e boas práticas aplicadas ao Git e GitHub.
+Nos próximos arquivos, veremos comandos essenciais, fluxos de trabalho e boas práticas aplicadas ao Git e GitHub. 
