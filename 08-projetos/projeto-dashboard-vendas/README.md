@@ -1,106 +1,122 @@
 # 📊 Projeto Dashboard de Vendas — Excel.  
 
-Dashboard desenvolvido no Microsoft Excel com foco em organização, visualização e análise de dados de vendas.
+![Resultado Final](./assets/dashboard_vendas.png)
+
+> Dashboard de vendas desenvolvido no Microsoft Excel com foco em organização, visualização de dados e apoio à tomada de decisão.
+
+---
 
 ## 📌 Contexto:  
 
-Este projeto foi desenvolvido como parte do Bootcamp Santander 2025 – Ciência de Dados com Python, oferecido pela DIO (Digital Innovation One).
+Este projeto foi desenvolvido como parte do **Bootcamp Santander 2025 – Ciência de Dados com Python**, oferecido pela **DIO (Digital Innovation One)**.
 
-O desafio propõe a criação de um dashboard de vendas no Excel, com foco na transformação de dados brutos em informações visuais claras, permitindo análises rápidas, objetivas e orientadas à tomada de decisão.
+O desafio consiste na criação de um **dashboard de vendas no Excel**, transformando dados brutos em informações visuais claras, objetivas e úteis para análise de desempenho e tomada de decisões orientadas por dados.
 
-Embora a ferramenta principal seja o Excel, o projeto avalia competências fundamentais de análise de dados, definição de métricas, visualização e comunicação de insights.
+Embora a ferramenta principal seja o Excel, o foco do desafio está na **capacidade analítica**, na **definição correta de métricas**, na **estruturação dos dados** e na **clareza da comunicação visual**.
+
+---
 
 ## 🎯 Objetivo do Projeto:  
 
-Organizar e estruturar dados de vendas.  
-Criar métricas relevantes para acompanhamento de desempenho.  
-Desenvolver um dashboard visual, limpo e intuitivo.  
-Facilitar a análise e a extração de insights estratégicos.   
-Aplicar boas práticas de projetos de dados.  
+- Organizar uma base de dados de vendas
+- Criar métricas essenciais de desempenho
+- Desenvolver um dashboard visual, limpo e intuitivo
+- Facilitar a análise rápida dos dados
+- Aplicar boas práticas de projetos de dados
 
-#### 📁 Estrutura do Repositório: 
+---
+
+## 📁 Estrutura do Repositório:  
 ```text
 projeto-dashboard-vendas/
 ├── README.md
 ├── data/
-│   └── base.xlsx
+│ └── base.xlsx
 ├── dashboard/
-│   └── dashboard_vendas_excel_dio.xlsx
+│ └── dashboard_vendas_excel_dio.xlsx
 └── assets/
-    └── dashboard_vendas.png
+└── dashboard_vendas.png
 ```
 
-#### 📂 Descrição das Pastas:  
+### 📂 Descrição das Pastas:  
 
-`data/`
-Contém a base de dados original utilizada no projeto, sem alterações.  
+- **data/**  
+  Contém a base de dados original utilizada no projeto, sem modificações.
 
-`dashboard/` 
-Contém o arquivo Excel final com o dashboard concluído.  
+- **dashboard/**  
+  Contém o arquivo Excel final com o dashboard totalmente funcional.
 
-`assets/`
-Contém imagens utilizadas no README (print do dashboard).
+- **assets/**  
+  Contém imagens utilizadas no README, incluindo o print do dashboard final.
 
-` Essa organização segue boas práticas, separando dados brutos, resultado final e documentação visual.`
+Essa organização segue boas práticas ao separar **dados brutos**, **processamento** e **resultado final**.
 
-### 📊 Métricas e Visualizações:  
-Métrica	Visualização	Objetivo
-Total de Clientes	Card (Big Number)	Visão rápida da base ativa
-Receita Total	Card (Big Number)	Monitorar faturamento geral
-Ticket Médio	Card	Entender o gasto médio por cliente
-Tipo de Assinatura	Gráfico de Barras	Comparar Monthly vs Annual
-Adoção do EA Play	Gráfico de Pizza	Avaliar potencial de cross-sell
-📈 Insights Obtidos
+---
 
-A partir da análise do dashboard, foi possível identificar que:
+## 📊 Métricas e Visualizações:  
 
-O modelo de assinatura Monthly possui maior número de clientes, indicando menor barreira de entrada
+| Métrica | Visualização | Objetivo |
+|------|-------------|--------|
+| Total de Clientes | Card (Big Number) | Visualização rápida da base de clientes |
+| Receita Total | Card (Big Number) | Acompanhamento do faturamento |
+| Ticket Médio | Card | Análise do gasto médio por cliente |
+| Tipo de Assinatura | Gráfico de Colunas | Comparar Monthly, Quarterly e Annual |
+| Adoção do EA Play | Gráfico de Pizza | Avaliar potencial de cross-sell |
 
-A assinatura Annual tende a gerar maior valor agregado por cliente
+Todas as métricas são calculadas a partir da base de dados e conectadas por fórmulas, seguindo o fluxo:
 
-Uma parcela significativa da base não aderiu ao EA Play, revelando potencial de cross-sell
+**Bases → Apoio → Dashboard**
 
-O Ticket Médio ajuda a entender o comportamento de consumo e direcionar estratégias comerciais
+---
 
-Esses insights podem apoiar decisões relacionadas a precificação, ofertas promocionais e estratégias de retenção.
+## 📈 Insights Obtidos:  
 
-🛠️ Ferramentas Utilizadas
+A análise do dashboard permite identificar que:
 
-Microsoft Excel
+- O modelo de assinatura **Monthly concentra a maior parte dos clientes**, indicando menor barreira de entrada
+- As assinaturas **Annual e Quarterly apresentam maior valor agregado por cliente**
+- Uma parcela relevante dos clientes **não aderiu ao EA Play**, indicando oportunidade de **cross-sell**
+- O **Ticket Médio** auxilia na compreensão do comportamento de consumo da base
 
-Tabelas Dinâmicas
+Esses insights podem apoiar decisões estratégicas relacionadas a **precificação**, **ofertas promocionais** e **estratégias de retenção**.
 
-Gráficos Dinâmicos
+---
 
-Segmentações de Dados
+## 🛠️ Ferramentas Utilizadas:  
 
-Fórmulas para KPIs
+- Microsoft Excel
+- Fórmulas para KPIs
+- Tabelas auxiliares (Apoio)
+- Gráficos dinâmicos
+- Organização de dados em camadas
 
-▶️ Como Reproduzir
+---
 
-Clone este repositório:
+## ▶️ Como Reproduzir:  
 
-git clone https://github.com/seu-usuario/projeto-dashboard-vendas.git
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/projeto-dashboard-vendas.git
 
 
 Acesse a pasta data/ e abra o arquivo base.xlsx
 
 Abra o arquivo dashboard/dashboard_vendas_excel_dio.xlsx
 
-Utilize os filtros e gráficos do dashboard para explorar os dados
+Utilize os gráficos e métricas do dashboard para explorar os dados
 
-📌 Observações
+#### 📌 Observações: 
 
-Projeto desenvolvido com fins educacionais
+Projeto desenvolvido com fins educacionais.  
+Dashboard totalmente dinâmico, alimentado por fórmulas.  
+Estrutura próxima a projetos utilizados em ambientes profissionais. 
+Ideal para portfólio e demonstração de habilidades analíticas.    
 
-Estrutura e abordagem alinhadas a práticas utilizadas em ambientes profissionais
+#### 👩‍💻 Autora: 
 
-Foco em clareza analítica, organização e comunicação visual
+**Jeniffer Pires**  
+* Bootcamp Santander 2025 — Ciência de Dados com Python
+* Plataforma: DIO – Digital Innovation One.
 
-👩‍💻 Autora
+**📊 Dados bem organizados contam histórias melhores.** 
 
-Jeniffer Pires
-Bootcamp Santander 2025 — Ciência de Dados com Python
-Plataforma: DIO – Digital Innovation One
-
-📊 Dados bem organizados contam histórias melhores.
