@@ -1,86 +1,106 @@
-# 📊 Projeto Dashboard de Vendas — Excel. 
+# 📊 Projeto Dashboard de Vendas — Excel.  
 
-## 📌 Contexto:   
+Dashboard desenvolvido no Microsoft Excel com foco em organização, visualização e análise de dados de vendas.
 
-Este projeto foi desenvolvido como parte do **Bootcamp Santander 2025 – Ciência de Dados com Python**, oferecido pela **DIO (Digital Innovation One)**. O desafio propõe a criação de um **dashboard de vendas no Excel**, com foco na **organização, visualização e análise de dados**, transformando dados brutos em informações claras para apoiar a tomada de decisão.
+## 📌 Contexto:  
 
-Embora a ferramenta principal seja o Excel, o objetivo central do desafio é avaliar a **capacidade analítica**, a escolha adequada de métricas e visualizações e a clareza na comunicação dos resultados.
+Este projeto foi desenvolvido como parte do Bootcamp Santander 2025 – Ciência de Dados com Python, oferecido pela DIO (Digital Innovation One).
 
----
+O desafio propõe a criação de um dashboard de vendas no Excel, com foco na transformação de dados brutos em informações visuais claras, permitindo análises rápidas, objetivas e orientadas à tomada de decisão.
+
+Embora a ferramenta principal seja o Excel, o projeto avalia competências fundamentais de análise de dados, definição de métricas, visualização e comunicação de insights.
 
 ## 🎯 Objetivo do Projeto:  
 
-* Organizar dados de vendas a partir de uma base fornecida
-* Criar métricas relevantes para análise de desempenho
-* Desenvolver um dashboard visual e intuitivo no Excel
-* Facilitar a leitura dos dados e a extração de insights
-* Demonstrar boas práticas de análise e visualização de dados
+Organizar e estruturar dados de vendas.  
+Criar métricas relevantes para acompanhamento de desempenho.  
+Desenvolver um dashboard visual, limpo e intuitivo.  
+Facilitar a análise e a extração de insights estratégicos.   
+Aplicar boas práticas de projetos de dados.  
 
----
-
-## 📁 Estrutura do Projeto:  
-
+#### 📁 Estrutura do Repositório: 
 ```text
 projeto-dashboard-vendas/
 ├── README.md
 ├── data/
 │   └── base.xlsx
-└── dashboard/
-    └── dashboard_vendas.xlsx
+├── dashboard/
+│   └── dashboard_vendas_excel_dio.xlsx
+└── assets/
+    └── dashboard_vendas.png
 ```
 
-### 📂 Descrição das Pastas:  
+#### 📂 Descrição das Pastas:  
 
-* **data/**: contém a base de dados original utilizada no projeto, sem modificações
-* **dashboard/**: contém o arquivo Excel final com o dashboard construído
+`data/`
+Contém a base de dados original utilizada no projeto, sem alterações.  
 
-Essa separação garante clareza entre **dados brutos** e **resultado final**, seguindo boas práticas de organização de projetos de dados.
+`dashboard/` 
+Contém o arquivo Excel final com o dashboard concluído.  
 
----
+`assets/`
+Contém imagens utilizadas no README (print do dashboard).
 
-## 📊 Métricas e Análises (Planejamento):  
+` Essa organização segue boas práticas, separando dados brutos, resultado final e documentação visual.`
 
-As métricas e visualizações serão definidas a partir da análise da base de dados, podendo incluir:
+### 📊 Métricas e Visualizações:  
+Métrica	Visualização	Objetivo
+Total de Clientes	Card (Big Number)	Visão rápida da base ativa
+Receita Total	Card (Big Number)	Monitorar faturamento geral
+Ticket Médio	Card	Entender o gasto médio por cliente
+Tipo de Assinatura	Gráfico de Barras	Comparar Monthly vs Annual
+Adoção do EA Play	Gráfico de Pizza	Avaliar potencial de cross-sell
+📈 Insights Obtidos
 
-* Faturamento total
-* Quantidade de vendas
-* Ticket médio
-* Análise temporal de vendas
-* Comparativos por produto, categoria ou região
+A partir da análise do dashboard, foi possível identificar que:
 
----
+O modelo de assinatura Monthly possui maior número de clientes, indicando menor barreira de entrada
 
-## 🛠️ Ferramentas Utilizadas:  
+A assinatura Annual tende a gerar maior valor agregado por cliente
 
-* Microsoft Excel
-* Tabelas Dinâmicas
-* Gráficos Dinâmicos
-* Segmentações de Dados (Filtros)
+Uma parcela significativa da base não aderiu ao EA Play, revelando potencial de cross-sell
 
----
+O Ticket Médio ajuda a entender o comportamento de consumo e direcionar estratégias comerciais
 
-## ▶️ Como Reproduzir:  
+Esses insights podem apoiar decisões relacionadas a precificação, ofertas promocionais e estratégias de retenção.
 
-1. Acesse este repositório no GitHub
-2. Navegue até a pasta `data/` e abra o arquivo `base.xlsx`
-3. Abra o arquivo `dashboard/dashboard_vendas.xlsx`
-4. Utilize os filtros e interações do dashboard para explorar os dados
+🛠️ Ferramentas Utilizadas
 
----
+Microsoft Excel
 
-## 📌 Observações:  
+Tabelas Dinâmicas
 
-* Este projeto tem caráter **educacional**, mas segue práticas próximas às utilizadas em ambientes profissionais
-* O foco está na clareza analítica e na comunicação visual dos dados
+Gráficos Dinâmicos
 
----
+Segmentações de Dados
 
-## 👩‍💻 Autora:  
+Fórmulas para KPIs
 
-**Jeniffer Pires**
-Bootcamp **Santander 2025 — Ciência de Dados com Python**
-Plataforma: **[DIO – Digital Innovation One](https://web.dio.me/track/santander-2025-ciencia-de-dados-com-python)**
+▶️ Como Reproduzir
 
----
+Clone este repositório:
 
-> *Dados bem organizados contam histórias melhores.*
+git clone https://github.com/seu-usuario/projeto-dashboard-vendas.git
+
+
+Acesse a pasta data/ e abra o arquivo base.xlsx
+
+Abra o arquivo dashboard/dashboard_vendas_excel_dio.xlsx
+
+Utilize os filtros e gráficos do dashboard para explorar os dados
+
+📌 Observações
+
+Projeto desenvolvido com fins educacionais
+
+Estrutura e abordagem alinhadas a práticas utilizadas em ambientes profissionais
+
+Foco em clareza analítica, organização e comunicação visual
+
+👩‍💻 Autora
+
+Jeniffer Pires
+Bootcamp Santander 2025 — Ciência de Dados com Python
+Plataforma: DIO – Digital Innovation One
+
+📊 Dados bem organizados contam histórias melhores.
