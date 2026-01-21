@@ -94,14 +94,13 @@ Esses insights podem apoiar decisões estratégicas relacionadas a **precificaç
 
 ## ▶️ Como Reproduzir:  
 
-1. Clone este repositório:
-   ```bash
+1. Clone este repositório:  
+```bash
    git clone https://github.com/seu-usuario/projeto-dashboard-vendas.git
+```
+Acesse a pasta `data/` e abra o arquivo `base.xlsx`,
 
-
-Acesse a pasta data/ e abra o arquivo base.xlsx
-
-Abra o arquivo dashboard/dashboard_vendas_excel_dio.xlsx
+Abra o arquivo `dashboard/dashboard_vendas_excel_dio.xlsx`. 
 
 Utilize os gráficos e métricas do dashboard para explorar os dados
 
