@@ -1,70 +1,69 @@
-# ☁️ Projeto AWS — Plataforma Virtual para Farmácia.  
+# ☁️ Projeto AWS — Plataforma de Farmácia Virtual.  
 
 ## 📌 Visão Geral:  
 
-Este projeto faz parte do repositório **dio-bootcamp-cienciadedados-python** e representa o **projeto final do módulo de Computação em Nuvem (AWS)** do bootcamp.
+Este projeto foi desenvolvido como desafio final do **Bootcamp DIO — Computação em Nuvem e AWS**, com o objetivo de **projetar uma arquitetura em nuvem para uma farmácia virtual fictícia**, utilizando serviços da **AWS**, com foco em **redução de custos**, **escalabilidade** e **boas práticas de arquitetura em nuvem**.
 
-O objetivo é **conceber e documentar uma arquitetura em nuvem**, utilizando serviços da **AWS**, para uma **farmácia fictícia**, com foco em **redução de custos, escalabilidade e boas práticas de cloud computing**.
-
----
-
-## 🎯 Objetivo do Projeto.  
-
-Projetar uma solução em nuvem que permita:
-
-- Redução de custos de infraestrutura.  
-- Alta disponibilidade.  
-- Escalabilidade sob demanda.  
-- Organização e documentação profissional.  
-- Aplicação prática dos conceitos de AWS.  
+O projeto é **conceitual e arquitetural**, simulando um cenário real de empresa, sem necessidade de provisionamento real de infraestrutura.
 
 ---
 
-## 🏥 Cenário Proposto:  
+## 🎯 Objetivos do Projeto:  
 
-A empresa fictícia atua no setor farmacêutico e deseja:
-
-- Criar uma **plataforma virtual** para vendas e gestão. 
-- Migrar de uma infraestrutura tradicional para a **nuvem AWS**.  
-- Otimizar custos operacionais.  
-- Garantir segurança e disponibilidade dos dados.  
-
----
-
-## 🧠 Abordagem:  
-
-O projeto será desenvolvido de forma incremental, seguindo boas práticas profissionais:
-
-1. Definição do cenário e objetivos.  
-2. Seleção de **3 serviços AWS principais**.  
-3. Justificativa técnica e foco em redução de custos.  
-4. Documentação em Markdown.  
-5. Organização do repositório para portfólio.  
+- Projetar uma arquitetura AWS para uma farmácia online.  
+- Selecionar serviços com foco em **redução de custos imediata**.  
+- Garantir escalabilidade, disponibilidade e segurança.  
+- Documentar decisões arquiteturais.  
+- Estimar custos de forma aproximada.  
+- Organizar documentação profissional em repositório GitHub.  
 
 ---
 
-## 🛠️ Tecnologias Utilizadas:  
+## 🏗️ Arquitetura Proposta:  
 
-- AWS (conceitos e serviços)
-- Git & GitHub
-- Markdown
+A arquitetura contempla:
+
+- Camada de aplicação web
+- Camada de backend
+- Armazenamento de dados
+- Monitoramento e controle de custos
+
+📄 Detalhes completos em:
+- `arquitetura/descricao-arquitetura.md`
+- `arquitetura/diagrama.png`
 
 ---
 
-## 📁 Estrutura do Projeto:  
-```text
-projeto-aws-farmacia/
-├── README.md
-├── modelo-relatorio.md
-├── arquitetura/
-├── custos/
-└── referencias/
-```
+## 💰 Custos:  
 
+Uma estimativa inicial de custos mensais foi elaborada considerando:
+- Baixa carga inicial.  
+- Uso de camadas gratuitas quando possível.  
+- Serviços gerenciados.  
+
+📄 Ver:
+- `custos/estimativa-custos.md`
+
+---
+
+## 📚 Referências:  
+
+Documentações oficiais e materiais de apoio utilizados:
+- `referencias/referencias.md`
+- `referencias/links-aws.md`
+
+---
+
+## 📄 Relatório Final:  
+
+O relatório formal exigido pela plataforma DIO está disponível em:
+
+📄 `modelo-relatorio.md`
 
 ---
 
 ## 👩‍💻 Autoria:  
 
-Projeto desenvolvido por **Jeniffer Pires**, como parte do **DIO Bootcamp — Ciência de Dados com Python**, com foco em aprendizado prático e construção de portfólio profissional.
+Projeto desenvolvido por **Jeniffer Pires**, como parte do **Bootcamp DIO — Computação em Nuvem com AWS**.
 
+📌 *Projeto conceitual com foco em arquitetura, documentação e boas práticas em Cloud Computing.*
