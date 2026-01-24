@@ -52,8 +52,17 @@ O foco principal é:
 
 A arquitetura é **altamente escalável**, permitindo crescimento automático conforme aumento da demanda, sem necessidade de reconfiguração manual.
 
+---  
+
+## 🖼️ Diagrama da Arquitetura:   
+
+O diagrama abaixo representa visualmente a arquitetura proposta para a farmácia virtual na AWS, evidenciando o fluxo de dados, os serviços utilizados e sua integração.    
+
+📄 Arquivo: `arquitetura/diagrama.png`  
+
 ---
 
 ## 📝 Considerações Finais:  
+ 
+Essa arquitetura atende ao cenário proposto de uma farmácia virtual de pequeno a médio porte, com possibilidade de evolução futura.  
 
-Essa arquitetura atende ao cenário proposto de uma farmácia virtual de pequeno a médio porte, com possibilidade de evolução futura.
