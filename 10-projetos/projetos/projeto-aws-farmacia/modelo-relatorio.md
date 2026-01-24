@@ -31,4 +31,15 @@ O projeto foi dividido em **3 etapas**, cada uma focada na adoção de um servi�
 O Amazon EC2 foi escolhido para executar a aplicação principal da plataforma virtual da farmácia.  
 Esse serviço permite a criação de servidores virtuais sob demanda, eliminando a necessidade de aquisição e manutenção de servidores físicos.  
 
-Com o EC2, a empresa passa a pagar apenas pelo tempo de uso da instância, reduzindo custos iniciais e possibilitando escalabilidade futura conforme o crescimento do negócio.  
+Com o EC2, a empresa passa a pagar apenas pelo tempo de uso da instância, reduzindo custos iniciais e possibilitando escalabilidade futura conforme o crescimento do negócio.    
+
+### Etapa 2 — Amazon S3 (Simple Storage Service). 
+
+- **Foco da ferramenta:** Armazenamento.  
+- **Objetivo:** Armazenar imagens, documentos e arquivos estáticos.  
+- **Descrição do caso de uso:**.  
+
+O Amazon S3 foi escolhido como solução de armazenamento para imagens de produtos, receitas médicas digitalizadas e documentos do sistema da farmácia.  
+
+Esse serviço oferece alta durabilidade, disponibilidade e baixo custo, permitindo que a empresa armazene grandes volumes de dados sem a necessidade de manter servidores dedicados, pagando apenas pelo espaço utilizado.  
+
