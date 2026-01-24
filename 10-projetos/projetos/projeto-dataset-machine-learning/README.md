@@ -1,84 +1,167 @@
-# Projeto – Criação de Dataset para Machine Learning.  
+# 📊 Projeto — Dataset de Imagens para Machine Learning, com foco em Deep Learning aplicado à Visão Computacional(Cats vs Dogs). 
 
-## 📌 Objetivo:  
-Este projeto tem como objetivo a criação de um **dataset de imagens** para o treinamento de um algoritmo de **Inteligência Artificial baseado em Redes Neurais Artificiais**, conforme proposto na atividade da trilha de Machine Learning da DIO.
+## 📌 Visão Geral:  
 
-O dataset criado neste projeto servirá como base para projetos futuros de **classificação de imagens**, utilizando bibliotecas e frameworks amplamente adotados no mercado, como TensorFlow e PyTorch.
+Este projeto faz parte do repositório **dio-bootcamp-cienciadedados-python** e tem como objetivo a **criação, validação e versionamento de um dataset de imagens** para problemas de **classificação supervisionada** em Visão Computacional, utilizando **Machine Learning / Deep Learning**.
+
+O dataset final contém **240 imagens balanceadas**, sendo:
+
+* 🐱 **120 imagens de gatos**
+* 🐶 **120 imagens de cachorros**
+
+Todo o pipeline foi construído com foco em **boas práticas profissionais**, garantindo reprodutibilidade, rastreabilidade e qualidade dos dados.
 
 ---
 
-## 🧠 Contexto:  
-Em problemas de Visão Computacional, o desempenho de um modelo de Machine Learning depende diretamente da **qualidade e organização do dataset** utilizado para treinamento.
+## 🎯 Objetivos do Projeto:  
 
-Neste projeto, foi criada uma base de dados contendo **duas classes distintas**, cada uma com no mínimo **100 imagens**, respeitando critérios mínimos de qualidade e resolução.
+* Criar um dataset balanceado para classificação binária (cats vs dogs).  
+* Garantir qualidade visual das imagens (foco, centralização, resolução).  
+* Padronizar nomes de arquivos e labels.  
+* Implementar scripts automatizados de validação.  
+* Versionar dataset e pipeline de forma organizada.  
+* Preparar o projeto para uso real em treinamento de modelos.  
+
+---
+
+## 🧠 Contexto de Machine Learning:  
+
+Este dataset pode ser utilizado em:
+
+* Classificação de imagens com CNNs.  
+* Transfer Learning (ResNet, VGG, MobileNet, EfficientNet).  
+* Estudos de data preprocessing e data validation.  
+* Exercícios de split treino/validação/teste.  
+* Portfólio técnico para entrevistas em Data Science / ML.  
 
 ---
 
 ## 📁 Estrutura do Projeto:  
 
-```text
+```
 projeto-dataset-machine-learning/
 │
 ├── README.md
-│
-├── dataset/
-│   ├── classe_1/
-│   │   ├── img_001.jpg
-│   │   ├── img_002.jpg
-│   │   └── ...
-│   │
-│   ├── classe_2/
-│   │   ├── img_001.jpg
-│   │   ├── img_002.jpg
-│   │   └── ...
-│   │
-│   └── scripts/
-│       └── validacao_dataset.py
+└── dataset_cats_dogs/
+    ├── dataset/
+    │   ├── cats/          # cat_001.jpg ... cat_120.jpg
+    │   ├── dogs/          # dog_001.jpg ... dog_120.jpg
+    │   └── labels.csv
+    │
+    ├── raw/               # imagens intermediárias (processamento)
+    │   ├── cats/
+    │   ├── dogs/
+    │   ├── cats_extra/
+    │   └── dogs_extra/
+    │
+    ├── raw_collages/      # colagens originais geradas
+    │   ├── cats/
+    │   └── dogs/
+    │
+    ├── scripts/           # pipeline automatizado
+    │   ├── passo1_setup_e_validacao.py
+    │   ├── passo1_1_split_colagens.py
+    │   ├── passo1_2_normalizar_120.py
+    │   ├── passo2_renomear_e_labels.py
+    │   ├── passo3_validacao_completa.py
+    │   └── passo4_gerar_zip.py
+    │
+    └── dataset.zip        # dataset final compactado
 ```
 
-Cada pasta representa uma classe de objetos, sendo o nome da pasta utilizado como rótulo (label) durante o treinamento do modelo.
+---
 
-## 🖼️ Dataset: 
-#### Classes:  
+## 🧪 Checklist de Qualidade do Dataset:  
 
-**Classe 1:** `classe_1`
+✔ Imagens nítidas e centralizadas. 
+✔ Apenas **1 animal por imagem**. 
+✔ Resolução mínima ≥ **400x400** (dataset final ≥ 512x512). 
+✔ Sem marca d’água, texto ou memes.
+✔ Classes corretamente separadas (gato ≠ cachorro).
+✔ Balanceamento perfeito entre classes.
+✔ Nomenclatura sequencial padronizada.
 
-**Classe 2:** `classe_2`
+>> As imagens utilizadas neste dataset foram obtidas de fontes públicas e abertas,
+com finalidade exclusivamente educacional.
 
-> As classes podem representar objetos, animais, pessoas, expressões faciais ou qualquer outro conceito visual, desde que sejam distintas entre si.
 
-#### Requisitos das Imagens:  
+---
 
-Quantidade mínima: **100 imagens por classe.**  
+## 🏷️ Padronização de Nomes.  
 
-Resolução mínima recomendada: **400x400 pixels.**   
+### Gatos:  
 
-Imagens nítidas e bem iluminadas.  
+```
+cat_001.jpg
+cat_002.jpg
+...
+cat_120.jpg
+```
 
-Formatos comuns: `.jpg`, `.jpeg` ou `.png`.  
+### Cachorros:  
 
-As imagens podem ser:
+```
+dog_001.jpg
+dog_002.jpg
+...
+dog_120.jpg
+```
 
-Capturadas com câmera própria.  
-Obtidas de bases públicas ou da internet, respeitando qualidade visual.  
+---
 
-### 🔎 Validação do Dataset:  
+## 📄 Arquivo de Labels:  
 
-O diretório `scripts` contém um script opcional (`validacao_dataset.py`) que pode ser utilizado para:
+O arquivo `labels.csv` segue o formato:
 
-Verificar a quantidade de imagens por classe.  
-Conferir formatos suportados.  
-Auxiliar na validação antes do treinamento do modelo.  
+```csv
+filename,label
+cats/cat_001.jpg,cat
+cats/cat_002.jpg,cat
+...
+dogs/dog_120.jpg,dog
+```
 
-### 🚀 Aplicações Futuras:  
+Esse formato é compatível com **PyTorch**, **TensorFlow/Keras** e outras bibliotecas de ML.
 
-Este dataset poderá ser utilizado em:
+---
 
-Treinamento de classificadores de imagens.  
-Redes Neurais Convolucionais (CNN).  
-Projetos de Visão Computacional.  
-Estudos sobre balanceamento de classes e pré-processamento de imagens.  
+## ⚙️ Pipeline Automatizado:  
 
-#### 📝 Observações:  
+O projeto conta com scripts que cobrem todo o ciclo de preparação do dataset:
 
-Este projeto faz parte de uma sequência de projetos desenvolvidos ao longo da trilha de **Ciência de Dados e Machine Learning**, com foco em boas práticas, organização e clareza na documentação.  
+1. **Setup e validação inicial**
+2. **Split de colagens em imagens individuais**
+3. **Normalização para exatamente 120 imagens por classe**
+4. **Renomeação padronizada e geração de labels**
+5. **Validação completa de sequência e consistência**
+6. **Geração do dataset final compactado (`dataset.zip`)**
+
+Todos os passos são reproduzíveis e documentados.
+
+---
+
+## 🚀 Como Usar o Dataset:  
+
+1. Clone o repositório
+2. Navegue até o projeto:
+
+   ```bash
+   cd 10-projetos/projetos/projeto-dataset-machine-learning
+   ```
+3. Extraia o dataset:
+
+   ```bash
+   unzip dataset_cats_dogs/dataset.zip
+   ```
+4. Use as imagens e `labels.csv` no seu pipeline de ML.  
+
+
+---
+
+## 👩‍💻 Autoria:  
+
+Projeto desenvolvido por **Jeniffer Pires**, como parte do **DIO Bootcamp — Ciência de Dados com Python**, com foco em aprendizado prático e construção de portfólio profissional.
+
+---
+
+📌 *Este projeto demonstra domínio de organização de dados, automação de pipelines e boas práticas em Machine Learning aplicado a Visão Computacional.*
