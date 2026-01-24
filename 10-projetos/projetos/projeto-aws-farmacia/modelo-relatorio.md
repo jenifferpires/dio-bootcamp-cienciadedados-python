@@ -6,11 +6,11 @@ Responsável: Jeniffer Pires
 
 ---
 
-## Introdução:  
+## Introdução:    
+Este relatório apresenta o processo de implementação de serviços AWS na empresa Abstergo Industries, realizado por *Jeniffer Pires*.   
 
-Este relatório apresenta o processo de implementação de serviços em nuvem na empresa **Abstergo Industries — Divisão Farmacêutica**, realizado por **Jeniffer Pires**.
 
-O objetivo do projeto é selecionar e justificar o uso de **3 serviços AWS**, com foco em **redução de custos, escalabilidade e eficiência operacional**, aplicando conceitos fundamentais de computação em nuvem.
+O objetivo do projeto foi propor uma arquitetura em nuvem utilizando serviços da AWS com foco em **redução de custos, escalabilidade e confiabilidade para uma plataforma de e-commerce farmacêutico**,aplicando conceitos fundamentais de computação em nuvem.
 
 ---
 
@@ -51,5 +51,18 @@ Esse serviço oferece alta durabilidade, disponibilidade e baixo custo, permitin
 
 O Amazon RDS foi selecionado como banco de dados da plataforma da farmácia, sendo responsável por armazenar informações de clientes, produtos, pedidos e vendas.  
 
-A escolha do RDS permite reduzir custos operacionais com administração de banco de dados, além de garantir segurança, backups automáticos e alta confiabilidade, atendendo às necessidades de uma aplicação real de e-commerce farmacêutico.  
+A escolha do RDS permite reduzir custos operacionais com administração de banco de dados, além de garantir segurança, backups automáticos e alta confiabilidade, atendendo às necessidades de uma aplicação real de e-commerce farmacêutico.    
+
+## Conclusão:  
+A implementação dos serviços AWS na empresa Abstergo Industries permite uma redução significativa de custos operacionais, ao mesmo tempo em que garante escalabilidade, segurança e alta disponibilidade.
+
+A utilização do Amazon S3, EC2 e RDS oferece uma arquitetura sólida, modular e preparada para crescimento futuro, atendendo às necessidades de uma aplicação real de farmácia virtual.
+
+Recomenda-se a continuidade do uso dos serviços propostos, bem como a evolução da arquitetura com monitoramento, automação e práticas avançadas de segurança.
+
+Assinatura do Responsável pelo Projeto:  
+
+Jeniffer Pires  
+
+
 
