@@ -41,5 +41,15 @@ Com o EC2, a empresa passa a pagar apenas pelo tempo de uso da instância, reduz
 
 O Amazon S3 foi escolhido como solução de armazenamento para imagens de produtos, receitas médicas digitalizadas e documentos do sistema da farmácia.  
 
-Esse serviço oferece alta durabilidade, disponibilidade e baixo custo, permitindo que a empresa armazene grandes volumes de dados sem a necessidade de manter servidores dedicados, pagando apenas pelo espaço utilizado.  
+Esse serviço oferece alta durabilidade, disponibilidade e baixo custo, permitindo que a empresa armazene grandes volumes de dados sem a necessidade de manter servidores dedicados, pagando apenas pelo espaço utilizado.    
+
+### Etapa 3 — Amazon RDS (Relational Database Service).  
+
+- **Foco da ferramenta:** Banco de Dados Relacional.  
+- **Objetivo:** Armazenar dados transacionais da aplicação.  
+- **Descrição do caso de uso:**.  
+
+O Amazon RDS foi selecionado como banco de dados da plataforma da farmácia, sendo responsável por armazenar informações de clientes, produtos, pedidos e vendas.  
+
+A escolha do RDS permite reduzir custos operacionais com administração de banco de dados, além de garantir segurança, backups automáticos e alta confiabilidade, atendendo às necessidades de uma aplicação real de e-commerce farmacêutico.  
 
