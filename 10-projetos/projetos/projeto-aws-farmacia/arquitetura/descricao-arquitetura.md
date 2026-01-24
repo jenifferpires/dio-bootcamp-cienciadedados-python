@@ -60,6 +60,30 @@ O diagrama abaixo representa visualmente a arquitetura proposta para a farmácia
 
 📄 Arquivo: `arquitetura/diagrama.png`  
 
+`📊 Infográfico — Projeto Final AWS (Resumo Visual)`: 
+```text
+👤 Usuário
+   │
+   ▼
+🌐 CloudFront
+   │  (CDN | performance + custo)
+   ▼
+🗂 Amazon S3
+   │  (Frontend estático | baixo custo)
+   ▼
+🔌 API Gateway
+   │  (Entrada segura de requisições)
+   ▼
+⚙️ AWS Lambda
+   │  (Backend serverless | paga por uso)
+   ▼
+🗄 DynamoDB
+   │  (Banco NoSQL escalável)
+   ▼
+📈 CloudWatch
+   (Logs, métricas e monitoramento)
+```
+
 ---
 
 ## 📝 Considerações Finais:  
