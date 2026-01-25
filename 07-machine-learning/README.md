@@ -1,95 +1,104 @@
 # 🤖 Módulo 07 — Machine Learning.  
 
-Este módulo aborda os **fundamentos de Machine Learning**, partindo da preparação em **Python para ML** até os principais tipos de modelos, avaliação e boas práticas.
+Este módulo consolida os **fundamentos de Machine Learning**, conectando conceitos teóricos à prática com Python.  
+O foco não está apenas em treinar modelos, mas em **entender o processo completo**, desde a preparação dos dados até a avaliação e boas práticas.
 
-A proposta é construir uma **base sólida e progressiva**, conectando programação, dados e modelos, de forma didática e aplicada.
-
----
-
-## 🎯 Objetivos do Módulo:  
-
-- Entender o papel do Machine Learning na Ciência de Dados.  
-- Preparar o ambiente e o código Python para aplicações em ML.  
-- Compreender os tipos de aprendizado de máquina.  
-- Conhecer modelos supervisionados e não supervisionados.  
-- Aprender conceitos básicos de avaliação de modelos.  
-- Aplicar boas práticas e evitar erros comuns em projetos de ML.  
+O conteúdo segue uma progressão lógica, pensada para quem está construindo uma base sólida em Ciência de Dados.  
 
 ---
 
-## 🧠 Estrutura do Módulo:  
+## 🎯 Objetivo do módulo:  
 
-```text
-07-machine-learning/
-├── 00-python-para-machine-learning/
-│   ├── 01-introducao-ao-python-para-ml.md
-│   ├── 02-ambiente-e-ferramentas.md
-│   ├── 03-tipos-de-variaveis-para-ml.md
-│   ├── 04-estruturas-condicionais-em-ml.md
-│   ├── 05-estruturas-de-repeticao-em-ml.md
-│   └── 06-primeiro-codigo-python-para-ml.md
-│
-├── 01-introducao-machine-learning.md
-├── 02-tipos-de-aprendizado.md
-├── 03-preparacao-de-dados-para-ml.md
-├── 04-modelos-supervisionados.md
-├── 05-modelos-nao-supervisionados.md
-├── 06-avaliacao-de-modelos.md
-├── 07-boas-praticas-e-erros-comuns.md
-└── README.md
-```
+Ao concluir este módulo, você será capaz de:
 
-## 📌 Conteúdos Abordados: 
+- Compreender o que é Machine Learning e quando utilizá-lo.  
+- Diferenciar tipos de aprendizado.  
+- Preparar dados adequadamente para modelos. 
+- Aplicar modelos supervisionados e não supervisionados.  
+- Avaliar modelos de forma correta.  
+- Evitar erros comuns em projetos de ML.  
+- Desenvolver soluções com foco no mundo real.  
 
-### 🐍 Python para Machine Learning.  
+---
 
-Base de programação necessária para trabalhar com dados e modelos:
+## 🧠 Conteúdos abordados.  
 
-Variáveis e tipos de dados.  
-Estruturas condicionais.  
-Estruturas de repetição.  
-Organização de código para ML.  
-Primeiro código aplicado ao contexto de Machine Learning.  
+### 📘 01 — Introdução ao Machine Learning:    
+Visão geral do que é Machine Learning, seus tipos, aplicações e limitações.
 
-### 🤖 Fundamentos de Machine Learning.  
+📄 `01-introducao-machine-learning.md`  
 
-O que é Machine Learning?  
-Onde o ML é aplicado?   
-Diferença entre regras explícitas e aprendizado a partir de dados.  
+---
 
-### 🧩 Tipos de Aprendizado:  
+### 📘 02 — Tipos de Aprendizado:    
+Diferenças entre aprendizado supervisionado, não supervisionado e por reforço.
 
-Aprendizado supervisionado.  
-Aprendizado não supervisionado.  
-Visão geral de aprendizado por reforço.  
+📄 `02-tipos-de-aprendizado.md`
 
-### 🧪 Preparação de Dados:  
+---
 
-Limpeza de dados.  
-Seleção de atributos.  
-Transformações básicas para modelos de ML.  
+### 📘 03 — Preparação de Dados para ML:    
+Etapas fundamentais de limpeza, transformação e organização dos dados antes do treinamento.
 
-### 📊 Modelos e Avaliação:  
+📄 `03-preparacao-de-dados-para-ml.md`
 
-Modelos supervisionados.  
-Modelos não supervisionados.  
-Conceitos iniciais de avaliação de modelos.  
+---
 
-## ⚠️ Boas Práticas:  
+### 📘 04 — Modelos Supervisionados:    
+Conceitos, exemplos e aplicações de modelos com dados rotulados.
 
-Erros comuns em projetos de ML.  
-Cuidados com dados, métricas e interpretação.  
-Importância da validação e testes.  
+📄 `04-modelos-supervisionados.md`
 
-## 🌍 Conexão com o Mundo Real.  
+---
 
-Machine Learning é amplamente utilizado em:
+### 📘 05 — Modelos Não Supervisionados:    
+Clusterização, redução de dimensionalidade e descoberta de padrões sem rótulos.
 
-Sistemas de recomendação.  
-Classificação e previsão.  
-Análise de comportamento.  
-Automação de decisões baseada em dados.  
+📄 `05-modelos-nao-supervisionados.md`
 
-Este módulo prepara a base necessária para evoluir para projetos mais avançados, incluindo Deep Learning e aplicações em produção.  
+---
 
-> Machine Learning não começa no modelo, começa nos dados e no código bem estruturado.
+### 📘 06 — Avaliação de Modelos:    
+Métricas, validação, overfitting, underfitting e interpretação de resultados.
+
+📄 `06-avaliacao-de-modelos.md`
+
+---
+
+### 📘 07 — Boas Práticas e Erros Comuns:    
+Padrões profissionais, armadilhas frequentes e checklist de qualidade em ML.
+
+📄 `07-boas-praticas-e-erros-comuns.md`
+
+---
+
+## 🛠️ Ferramentas e Tecnologias:  
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Jupyter / Scripts Python
+
+---
+
+## 🌍 Conexão com o mundo real:   
+
+Os conceitos apresentados neste módulo são aplicáveis a:
+
+- Segmentação de clientes.  
+- Sistemas de recomendação.  
+- Análise preditiva.  
+- Detecção de anomalias.  
+- Apoio à tomada de decisão baseada em dados.  
+
+Este módulo prepara a base para **projetos reais**, evitando uma abordagem puramente teórica.  
+
+---
+
+## 🧾 Observações finais:  
+
+Machine Learning não é apenas sobre modelos, mas sobre **processo, responsabilidade e interpretação**.   
+Um bom modelo começa com bons dados e termina com uma boa análise.  
+
+➡️ Próximo passo natural: **Visualização de Dados**, para comunicar resultados de forma clara e eficaz.  
