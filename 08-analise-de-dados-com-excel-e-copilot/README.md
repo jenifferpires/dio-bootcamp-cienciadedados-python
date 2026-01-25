@@ -1,121 +1,99 @@
-# 📊 Projeto Dashboard de Vendas — Excel.  
+# 📊 Módulo 08 — Análise de Dados com Excel e Copilot.  
 
-![Resultado Final](./assets/dashboard_vendas.png)
+Este módulo aborda o uso do **Microsoft Excel como ferramenta de análise de dados**, integrando recursos modernos como **Copilot**, **Power Query** e **dashboards interativos**.  
 
-> Dashboard de vendas desenvolvido no Microsoft Excel com foco em organização, visualização de dados e apoio à tomada de decisão.
-
----
-
-## 📌 Contexto:  
-
-Este projeto foi desenvolvido como parte do **Bootcamp Santander 2025 – Ciência de Dados com Python**, oferecido pela **DIO (Digital Innovation One)**.
-
-O desafio consiste na criação de um **dashboard de vendas no Excel**, transformando dados brutos em informações visuais claras, objetivas e úteis para análise de desempenho e tomada de decisões orientadas por dados.
-
-Embora a ferramenta principal seja o Excel, o foco do desafio está na **capacidade analítica**, na **definição correta de métricas**, na **estruturação dos dados** e na **clareza da comunicação visual**.
+O foco não está apenas na ferramenta, mas na **capacidade analítica**, na escolha correta de métricas e na comunicação clara dos resultados.  
 
 ---
 
-## 🎯 Objetivo do Projeto:  
+## 🎯 Objetivos do Módulo:  
 
-- Organizar uma base de dados de vendas
-- Criar métricas essenciais de desempenho
-- Desenvolver um dashboard visual, limpo e intuitivo
-- Facilitar a análise rápida dos dados
-- Aplicar boas práticas de projetos de dados
-
----
-
-## 📁 Estrutura do Repositório:  
-```text
-projeto-dashboard-vendas/
-├── README.md
-├── data/
-│ └── base.xlsx
-├── dashboard/
-│ └── dashboard_vendas_excel_dio.xlsx
-└── assets/
-└── dashboard_vendas.png
-```
-
-### 📂 Descrição das Pastas:  
-
-- **data/**  
-  Contém a base de dados original utilizada no projeto, sem modificações.
-
-- **dashboard/**  
-  Contém o arquivo Excel final com o dashboard totalmente funcional.
-
-- **assets/**  
-  Contém imagens utilizadas no README, incluindo o print do dashboard final.
-
-Essa organização segue boas práticas ao separar **dados brutos**, **processamento** e **resultado final**.
+- Utilizar o Excel como ferramenta analítica.  
+- Automatizar tarefas com Microsoft Copilot.  
+- Realizar processos de ETL com Power Query.  
+- Analisar bases de dados de forma estruturada.  
+- Criar dashboards claros e orientados à decisão.  
+- Aplicar boas práticas de organização e visualização.  
 
 ---
 
-## 📊 Métricas e Visualizações:  
+## 📚 Conteúdos Abordados.  
 
-| Métrica | Visualização | Objetivo |
-|------|-------------|--------|
-| Total de Clientes | Card (Big Number) | Visualização rápida da base de clientes |
-| Receita Total | Card (Big Number) | Acompanhamento do faturamento |
-| Ticket Médio | Card | Análise do gasto médio por cliente |
-| Tipo de Assinatura | Gráfico de Colunas | Comparar Monthly, Quarterly e Annual |
-| Adoção do EA Play | Gráfico de Pizza | Avaliar potencial de cross-sell |
-
-Todas as métricas são calculadas a partir da base de dados e conectadas por fórmulas, seguindo o fluxo:
-
-**Bases → Apoio → Dashboard**
+### 📘 01 — Introdução ao Excel 365:   
+Fundamentos do Excel moderno, organização de dados, tabelas, fórmulas e boas práticas para análise.  
 
 ---
 
-## 📈 Insights Obtidos:  
+### 🤖 02 — Microsoft Copilot na Análise de Dados:    
+Uso do Copilot como apoio analítico:
+- Geração de insights.  
+- Criação de fórmulas.  
+- Interpretação de dados.  
+- Apoio à tomada de decisão.  
 
-A análise do dashboard permite identificar que:
+---
 
-- O modelo de assinatura **Monthly concentra a maior parte dos clientes**, indicando menor barreira de entrada
-- As assinaturas **Annual e Quarterly apresentam maior valor agregado por cliente**
-- Uma parcela relevante dos clientes **não aderiu ao EA Play**, indicando oportunidade de **cross-sell**
-- O **Ticket Médio** auxilia na compreensão do comportamento de consumo da base
+### 🗄️ 03 — Copilot para Consultas SQL:    
+Utilização do Copilot para:
+- Criar consultas SQL.  
+- Traduzir perguntas de negócio em queries.  
+- Apoiar análises integradas entre Excel e banco de dados.  
 
-Esses insights podem apoiar decisões estratégicas relacionadas a **precificação**, **ofertas promocionais** e **estratégias de retenção**.
+---
+
+### 🔄 04 — ETL com Excel e Power Query.  
+
+Criação de pipelines de dados utilizando:  
+- Extração.  
+- Transformação.  
+- Carga.  
+Tudo de forma automatizada e reprodutível.  
+
+---
+
+### 🔍 05 — Análise de Dados com Excel e Copilot:    
+Exploração de dados, criação de métricas, análises comparativas e interpretação de resultados com apoio do Copilot.  
+
+---
+
+### 📈 06 — Introdução a Dashboards:    
+Conceitos de visualização aplicada:
+- KPIs
+- Métricas
+- Gráficos adequados
+- Clareza visual
+- Storytelling com dados
+
+---
+
+## 🧪 Projeto Prático:  
+
+### 📊 Projeto — Dashboard de Vendas com Excel.  
+
+Aplicação prática de todo o aprendizado do módulo:
+
+- Organização de dados
+- Criação de métricas
+- Análise de desempenho
+- Construção de dashboard interativo
+- Comunicação visual orientada à decisão
+
+📂 Consulte a pasta `projeto-dashboard-vendas/` para detalhes completos.
 
 ---
 
 ## 🛠️ Ferramentas Utilizadas:  
 
-- Microsoft Excel
-- Fórmulas para KPIs
-- Tabelas auxiliares (Apoio)
-- Gráficos dinâmicos
-- Organização de dados em camadas
+- Microsoft Excel 365
+- Power Query
+- Microsoft Copilot
+- Tabelas e Gráficos Dinâmicos
 
 ---
 
-## ▶️ Como Reproduzir:  
+## 📌 Observação Final:  
 
-1. Clone este repositório:  
-```bash
-   git clone https://github.com/seu-usuario/projeto-dashboard-vendas.git
-```
-Acesse a pasta `data/` e abra o arquivo `base.xlsx`,
+Embora utilize Excel, este módulo desenvolve **competências centrais da área de dados**, como análise, interpretação, organização e visualização da informação.  
 
-Abra o arquivo `dashboard/dashboard_vendas_excel_dio.xlsx`. 
-
-Utilize os gráficos e métricas do dashboard para explorar os dados
-
-#### 📌 Observações: 
-
-Projeto desenvolvido com fins educacionais.  
-Dashboard totalmente dinâmico, alimentado por fórmulas.  
-Estrutura próxima a projetos utilizados em ambientes profissionais. 
-Ideal para portfólio e demonstração de habilidades analíticas.    
-
-#### 👩‍💻 Autora: 
-
-**Jeniffer Pires**  
-* Bootcamp Santander 2025 — Ciência de Dados com Python
-* Plataforma: DIO – Digital Innovation One.
-
-**📊 Dados bem organizados contam histórias melhores.** 
-
+> Excel é ferramenta.   
+> Análise é habilidade.    
