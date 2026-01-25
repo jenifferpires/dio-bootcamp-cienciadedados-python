@@ -1,86 +1,89 @@
-# 📊 Visualização de Dados.  
+# 📊 Módulo 06 — Visualização de Dados.  
 
-Visualização de dados é a prática de **transformar informações em representações visuais** para facilitar a compreensão, análise e comunicação.
+Este módulo aborda os **fundamentos da visualização de dados**, com foco em **comunicar informações de forma clara, correta e eficiente**.
 
-Um bom gráfico não serve apenas para “embelezar” dados, mas para **contar uma história clara, correta e objetiva**.  
-
-Neste módulo, o foco está em escolher **o gráfico certo para a pergunta certa**, evitando interpretações equivocadas.  
+Mais do que criar gráficos, o objetivo é aprender a **escolher a visualização certa para cada pergunta**, evitando ruídos, interpretações equivocadas e decisões mal embasadas.
 
 ---
 
-## 🧭 Onde a visualização de dados é usada?
+## 🎯 Objetivo do módulo:  
 
-A visualização de dados está presente quando:  
+Ao concluir este módulo, você será capaz de:
 
-- 📈 Comunicamos resultados para times de negócio.    
-- 📊 Acompanhamos métricas e indicadores.    
-- 🔍 Exploramos padrões e tendências.    
-- ⚠️ Identificamos anomalias e variações.    
-- 🗣️ Apresentamos insights de forma objetiva.    
-
-Em muitos casos, **um bom gráfico vale mais do que várias tabelas**.  
-
----
-
-## 🧠 O papel da visualização na análise.  
-
-Visualizar dados ajuda a:
-
-- Comparar valores  
-- Identificar distribuições  
-- Observar tendências ao longo do tempo  
-- Detectar outliers  
-- Comunicar descobertas de forma acessível.    
-
-Uma visualização mal escolhida pode distorcer a mensagem.    
-Uma visualização bem construída acelera decisões.  
+- Entender o papel da visualização na análise de dados
+- Escolher o tipo de gráfico adequado para cada cenário
+- Criar gráficos com Matplotlib e Seaborn
+- Aplicar boas práticas de visualização
+- Identificar e evitar erros comuns em gráficos
+- Comunicar insights de forma clara e objetiva
 
 ---
 
-## 🧪 Exemplo simples em Python:  
+## 🧠 Conteúdos abordados.  
 
-```python
-import matplotlib.pyplot as plt
+### 📘 01 — Tipos de Gráficos:  
+Introdução aos principais tipos de gráficos e quando utilizá-los corretamente.
 
-plt.bar(["A", "B", "C"], [10, 20, 15])
-plt.title("Exemplo de gráfico de barras")
-plt.show()
-```
- 📌 Mesmo gráficos simples já permitem comparar valores rapidamente.  
+📄 `01-tipos-de-graficos.md`
 
-### ⚠️ Erros comuns em visualização.  
+---
 
-Alguns erros aparecem com frequência:  
+### 📘 02 — Matplotlib:    
+Criação de gráficos em Python, estrutura básica, exemplos práticos e customizações.
 
-- Usar gráficos inadequados para o tipo de dado.  
-- Poluir o gráfico com informações desnecessárias.  
-- Não rotular eixos ou títulos.  
-- Utilizar escalas enganosas.  
-- Exagerar no uso de cores sem significado.  
+📄 `02-matplotlib.md`
 
-Esses erros dificultam a leitura e prejudicam a interpretação.  
+---
 
-## ✅ Boas práticas:  
+### 📘 03 — Seaborn:    
+Visualização estatística, integração com Pandas e gráficos orientados a dados.
 
-Escolha o gráfico de acordo com a pergunta.  
-Priorize clareza e simplicidade.  
-Use cores de forma consistente.  
-Sempre inclua títulos e rótulos.  
-Considere o público que irá consumir o gráfico.  
+📄 `03-seaborn.md`
 
-## 🌍 Aplicação no mundo real.  
+---
 
-Visualização de dados é essencial em:
+### 📘 04 — Boas Práticas de Visualização:    
+Princípios para criar gráficos claros, honestos e eficientes.
 
-Dashboards executivos.  
-Relatórios analíticos.  
-Apresentações estratégicas.  
-Monitoramento de sistemas.  
-Comunicação entre áreas técnicas e não técnicas.  
+📄 `04-boas-praticas-de-visualizacao.md`
 
-Saber visualizar dados demonstra a capacidade de traduzir informação em insight.  
+---
 
-### 🧾 Observação final:  
+### 📘 05 — Erros Comuns em Gráficos:    
+Principais armadilhas visuais e conceituais que devem ser evitadas.
 
-Visualizar dados não é apenas gerar gráficos, mas comunicar bem.  
-Um gráfico bem construído reduz ruído, evita erros e torna decisões mais rápidas e seguras.  
+📄 `05-erros-comuns-em-graficos.md`
+
+---
+
+## 🛠️ Ferramentas e Tecnologias:  
+
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+
+---
+
+## 🌍 Conexão com o mundo real.
+
+A visualização de dados é essencial em:
+
+- Dashboards executivos
+- Relatórios analíticos
+- Análises exploratórias
+- Apresentações estratégicas
+- Comunicação entre áreas técnicas e não técnicas
+
+Visualizar dados corretamente permite **transformar análises em decisões**.
+
+---
+
+## 🧾 Observações finais:  
+
+Visualização de dados não é sobre estética, mas sobre **clareza e comunicação**.  
+Um bom gráfico reduz ruído, evita erros de interpretação e acelera a tomada de decisão.  
+
+Este módulo prepara a base para conectar **análise**, **modelagem** e **apresentação de resultados** de forma profissional.  
+
+➡️ Próximo passo natural: **Computação em Nuvem**, ampliando a visão para ambientes escaláveis e produção.  
