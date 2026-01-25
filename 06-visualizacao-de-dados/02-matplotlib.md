@@ -56,7 +56,8 @@ plt.show()
 
 --- 
 
-## 📊 Exemplo: Gráfico de barras:
+## 📊 Exemplo: Gráfico de barras:  
+
 ```python
 produtos = ["A", "B", "C"]
 quantidades = [30, 50, 20]
