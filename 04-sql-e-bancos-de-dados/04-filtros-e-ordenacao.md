@@ -151,11 +151,15 @@ Ordenar grandes volumes sem critério.
 
 ## ✅ Boas práticas:  
 
-Antes de rodar filtros em massa, teste com `LIMIT` para validar o resultado.  
-Use `IN` quando fizer sentido, em vez de vários `OR`.  
-Ao misturar `AND` e `OR`, use parênteses para explicitar a lógica.  
-Selecione apenas colunas necessárias, em vez de `SELECT *`, quando for consulta “de verdade”.  
-Padronize a formatação para facilitar leitura e revisão.  
+Antes de rodar filtros em massa, teste com `LIMIT` para validar o resultado.    
+  
+Use `IN` quando fizer sentido, em vez de vários `OR`.    
+
+Ao misturar `AND` e `OR`, use parênteses para explicitar a lógica.    
+
+Selecione apenas colunas necessárias, em vez de `SELECT *`, quando for consulta “de verdade”.    
+
+Padronize a formatação para facilitar leitura e revisão.    
 
 ### 📝 Observações: 
 

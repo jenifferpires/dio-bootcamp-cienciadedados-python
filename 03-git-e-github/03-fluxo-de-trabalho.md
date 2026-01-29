@@ -25,7 +25,7 @@ O fluxo de trabalho mais comum envolve:
 Esse modelo é amplamente usado em empresas e projetos open source.  
 
 ## 🧪 Exemplos práticos: 
-🔹 Criando uma nova branch:  
+### 🔹 Criando uma nova branch:  
 ```bash
 git branch nova-feature
 git checkout nova-feature
@@ -34,7 +34,7 @@ Ou de forma simplificada:
 ```bash
 git checkout -b nova-feature
 ```
-🔹 Trabalhando na branch:
+### 🔹 Trabalhando na branch:
 ```bash
 git status
 git add .
@@ -42,26 +42,26 @@ git commit -m "feat: adiciona nova funcionalidade"
 ```
 As alterações ficam isoladas da branch principal.
 
-🔹 Enviando a branch para o GitHub: 
+### 🔹 Enviando a branch para o GitHub: 
 ```bash
 git push origin nova-feature
 ```
 Publica a branch no repositório remoto.
 
-🔹 Atualizando a branch principal: 
+### 🔹 Atualizando a branch principal: 
 ```bash
 git checkout main
 git pull origin main
 ```
 Garante que você está trabalhando com a versão mais recente.
 
-🔹 Fazendo merge das alterações: 
+### 🔹 Fazendo merge das alterações: 
 ```bash
 git merge nova-feature
 ```
 Integra as mudanças da branch ao código principal.
 
-🔹 Resolvendo conflitos.
+### 🔹 Resolvendo conflitos.
 
 Quando dois arquivos são alterados no mesmo ponto:
 O Git sinaliza o conflito.

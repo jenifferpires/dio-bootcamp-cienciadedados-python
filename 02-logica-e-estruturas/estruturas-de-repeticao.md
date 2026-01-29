@@ -1,13 +1,13 @@
-# 📌 Estruturas de Repetição em Python
+# 📌 Estruturas de Repetição em Python.  
 
-## 📖 Introdução
+## 📖 Introdução:  
 Estruturas de repetição permitem executar um bloco de código
 várias vezes de forma controlada. Elas são essenciais para
 processar listas, dados, arquivos e automatizar tarefas.
 
 ---
 
-## 🎯 Quando usar no dia a dia
+## 🎯 Quando usar no dia a dia?  
 - Processar listas de dados
 - Repetir tarefas automaticamente
 - Percorrer arquivos e registros
@@ -16,7 +16,7 @@ processar listas, dados, arquivos e automatizar tarefas.
 
 ---
 
-## 🧠 Conceito
+## 🧠 Conceito:  
 Em Python, as principais estruturas de repetição são:
 
 - `for` → usado quando se sabe a quantidade de repetições  
@@ -71,14 +71,14 @@ print("Acesso permitido")
 
 ### ⚠️ Erros comuns:  
 
-Erro 1: Loop infinito. 
+**Erro 1: Loop infinito.** 
 
 ```python
 while True:
     print("Nunca termina")
 ```
 
-Erro 2: Esquecer de atualizar a variável de controle.
+**Erro 2: Esquecer de atualizar a variável de controle.**
 
 ```python
 contador = 0

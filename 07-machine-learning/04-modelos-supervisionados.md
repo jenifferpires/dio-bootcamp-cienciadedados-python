@@ -72,8 +72,8 @@ Modelo simples e interpretável, utilizado para problemas de regressão.
 Apesar do nome, é usada para **classificação**.
 
 📌 **Aplicações comuns:**
-- Classificação binária
-- Probabilidades de eventos
+- Classificação binária.  
+- Probabilidades de eventos.  
 
 ---
 
@@ -82,8 +82,8 @@ Apesar do nome, é usada para **classificação**.
 Modelo baseado em regras e divisões do espaço de dados.
 
 📌 **Vantagens:**
-- Fácil interpretação
-- Visualização clara
+- Fácil interpretação.  
+- Visualização clara.  
 
 📌 **Cuidados:**
 - Pode sofrer overfitting
@@ -108,8 +108,8 @@ Conjunto de várias árvores de decisão para melhorar a performance.
 Classifica com base na proximidade entre os dados.
 
 📌 **Quando usar?**
-- Bases pequenas ou médias
-- Dados bem distribuídos
+- Bases pequenas ou médias.
+- Dados bem distribuídos.
 
 ---
 

@@ -1,13 +1,13 @@
-# 📌 Estruturas Condicionais em Python
+# 📌 Estruturas Condicionais em Python.  
 
-## 📖 Introdução
+## 📖 Introdução:  
 Estruturas condicionais permitem que o programa tome decisões
 com base em condições. Elas fazem com que o código siga caminhos
 diferentes dependendo das regras definidas.
 
 ---
 
-## 🎯 Quando usar no dia a dia
+## 🎯 Quando usar no dia a dia?  
 - Validação de dados
 - Regras de negócio
 - Controle de acesso
@@ -16,7 +16,7 @@ diferentes dependendo das regras definidas.
 
 ---
 
-## 🧠 Conceito
+## 🧠 Conceito:  
 Em Python, as estruturas condicionais são compostas por:
 
 - `if` → executa um bloco se a condição for verdadeira  
@@ -84,7 +84,7 @@ else:
 
 #### Erros comuns:
 
-Erro 1: Esquecer a indentação.
+**Erro 1: Esquecer a indentação.**
 
 ```python
 if idade >= 18:
@@ -92,7 +92,7 @@ print("Erro")
 # Indentação incorreta.
 ```
 
-Erro 2: Condições confusas ou longas demais.
+**Erro 2: Condições confusas ou longas demais.**
 ```python
 if idade >= 18 and idade <= 65 and possui_cnh == True and ativo == True:
 ```

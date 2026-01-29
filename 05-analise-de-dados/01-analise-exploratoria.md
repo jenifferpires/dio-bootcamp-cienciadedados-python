@@ -1,4 +1,4 @@
-# 🔎 Análise Exploratória de Dados (EDA)
+# 🔎 Análise Exploratória de Dados (EDA).  
 
 A análise exploratória de dados é a primeira etapa prática ao trabalhar com um dataset.
 O objetivo é **entender o que os dados mostram**, identificar padrões, problemas e direcionar os próximos passos da análise.
@@ -18,7 +18,7 @@ A EDA é aplicada quando:
 
 ---
 
-## 🧠 O que observar na EDA
+## 🧠 O que observar na EDA? 
 
 Durante a análise exploratória, observamos principalmente:
 

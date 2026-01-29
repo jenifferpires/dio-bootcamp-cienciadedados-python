@@ -111,22 +111,17 @@ Leitura e interpretação de dados.
 Maturidade técnica para ambientes profissionais.  
 
 #### 📌 Conteúdos deste módulo:  
-
-`01-o-que-e-sql.md`
-
-`02-modelagem-de-dados.md` 
-
-`03-consultas-basicas.md`  
-
-`04-filtros-e-ordenacao.md`
-
-`05-joins.md`
-
-`06-agrupamentos-e-funcoes.md`
-
-`07-subqueries-e-views.md`
-
-`08-boas-praticas-sql.md`
+```text
+├── 01-o-que-e-sql.md
+├── 02-modelagem-de-dados.md
+├── 03-consultas-basicas.md
+├── 04-filtros-e-ordenacao.md
+├── 05-joins.md
+├── 06-agrupamentos-e-funcoes.md
+├── 07-subqueries-e-views.md
+├── 08-boas-praticas-sql.md
+└── README.md
+```
 
 ### 🧾 Observação final:  
 SQL não é apenas uma linguagem de consulta — é uma ferramenta estratégica para transformar dados em decisões.

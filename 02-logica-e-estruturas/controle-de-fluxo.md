@@ -17,7 +17,7 @@ melhor a execução dos loops.
 
 ---
 
-## 🧠 Conceito
+## 🧠 Conceito:  
 Os principais comandos de controle de fluxo em Python são:
 
 - `break` → encerra o loop imediatamente.  
@@ -28,7 +28,7 @@ Eles são usados dentro de loops ou estruturas condicionais.
 
 ---
 
-## 🧪 Exemplos práticos
+## 🧪 Exemplos práticos:  
 
 ### Uso do `break`
 ```python
