@@ -46,11 +46,14 @@ Hoje, **dados e cloud caminham juntos**.
 ├── 06-cloud-e-engenharia-de-dados.md
 ├── 07-introducao-a-aws.md
 ├── 08-servicos-aws-para-dados.md
-└── 09-boas-praticas-e-custos.md
-```
-Cada tema foi organizado de forma progressiva, conectando conceito → aplicação → impacto no mundo real.  
+└── 09-boas-praticas-e-custos.md  
+```   
 
-## 🔗 Relação com a área de Dados:  
+- ☁️ Projeto aplicado: `10-projetos/projetos/projeto-aws-farmacia/`     
+
+Cada tema foi organizado de forma progressiva, conectando conceito → aplicação → impacto no mundo real.     
+
+## 🔗 Relação com a área de Dados:     
 
 No contexto de Ciência de Dados e Engenharia de Dados, a computação em nuvem permite:
 
@@ -85,6 +88,7 @@ Dominar cloud demonstra maturidade técnica e visão sistêmica.
 
 ### 🧾 Observação final:  
 
-Este módulo serve como base sólida para projetos em nuvem, especialmente com AWS, que será explorada progressivamente conforme o avanço no bootcamp.
+Este módulo serve como base sólida para projetos em nuvem, especialmente com AWS, que será explorada progressivamente conforme o avanço no bootcamp.  
 
-Cloud não é o fim — é o meio para soluções escaláveis, seguras e orientadas a dados.  
+Cloud não é o fim — é o meio para soluções escaláveis, seguras e orientadas a dados.    
+Cloud bem aplicada transforma infraestrutura em estratégia.  
