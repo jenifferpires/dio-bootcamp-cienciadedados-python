@@ -78,37 +78,40 @@ Todos os projetos estão centralizados em:
 ```
 #### ⚠️ A pasta 08-projetos/ é mantida apenas como ponte de compatibilidade para entregas realizadas na plataforma DIO.
 
-#### 🔹 Projeto Dashboard de Vendas — Excel: 
-Organização e análise de dados de vendas.  
-Definição de métricas e indicadores.  
-Criação de dashboard interativo no Excel.  
-Ênfase em clareza visual e suporte à tomada de decisão.  
+#### 🔹📊 Projeto Dashboard de Vendas — Excel:  
+Análise e visualização com dashboard interativo.  
 
 Embora utilize Excel, o foco do projeto está na análise e visualização de dados, competências centrais da área de dados.  
 
-#### 🔹 Projeto ETL com Python:  
-Pipeline de extração, transformação e carga (ETL).  
-Estrutura modular.  
-Simulação de cenário real de engenharia de dados.  
+#### 🔹🔧 Projeto ETL com Python:    
+Pipeline de extração, transformação e carga (ETL).    
+Estrutura modular.    
+Simulação de cenário real de engenharia de dados.    
 
-#### 🔹 Projeto de Modelagem em Python:  
+#### 🔹 🧩 Projeto de Modelagem em Python:  
 Resolução de desafios com lógica e processamento de dados.  
-Leitura, transformação e exportação de dados.  
-Organização de código e resultados.  
+Leitura, transformação e exportação de dados.    
+Organização de código e resultados.    
 
-### 🛠️ Ferramentas e Tecnologias:  
-Python  
-Pandas  
-SQL  
-Git e GitHub  
-Excel (Dashboards)  
-Power Query  
-Matplotlib / Seaborn  
-Conceitos de Computação em Nuvem (AWS).  
+#### 🔹🐶🐱 Dataset para Machine Learning :   
+Criação, organização, validação e empacotamento de dataset.  
 
-#### 👩‍💻 Autora:   
-**Jeniffer Pires**  
-Bootcamp Santander 2025 — Ciência de Dados com Python.  
+#### 🔹☁️ AWS — Farmácia Virtual:    
+Arquitetura em nuvem com foco em custos, escala e boas práticas.  
+
+### 🛠️ Ferramentas e Tecnologias:    
+Python    
+Pandas     
+SQL    
+Git e GitHub    
+Excel/Power Query (Dashboards)    
+Power Query    
+Matplotlib / Seaborn    
+Conceitos de Computação em Nuvem (AWS).    
+
+#### 👩‍💻 Autora:     
+**Jeniffer Pires**    
+*Bootcamp Santander 2025 — Ciência de Dados com Python.*    
 Plataforma: DIO — Digital Innovation One.  
 
 *Aprender dados é aprender a transformar informação em decisão.*
