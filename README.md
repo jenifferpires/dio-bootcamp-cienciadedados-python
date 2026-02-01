@@ -111,7 +111,7 @@ Conceitos de Computação em Nuvem (AWS).
 
 #### 👩‍💻 Autora:     
 **Jeniffer Pires**    
-*Bootcamp Santander 2025 — Ciência de Dados com Python.*    
-Plataforma: DIO — Digital Innovation One.  
+*Bootcamp Santander 2025 — Ciência de Dados com Python.*      
+Plataforma: [DIO — Digital Innovation One](https://web.dio.me/track/santander-2025-ciencia-de-dados-com-python).     
 
 *Aprender dados é aprender a transformar informação em decisão.*
